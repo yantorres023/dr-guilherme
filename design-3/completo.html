@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Versão completa · Dr. Guilherme Henrique Figueiredo de Oliveira · Cardiologista · CRM-MG 48540</title>
+<meta name="description" content="Versão completa do site do Dr. Guilherme Henrique Figueiredo de Oliveira, Médico Cardiologista, CRM-MG 48540, RQE 40142, em Coronel Fabriciano (MG): pedido de horário online, preparo para exames, diário da pressão arterial, ficha pré-consulta e conteúdo educativo.">
+<meta name="theme-color" content="#110D0E">
+<script>
+/* Marca que há JS. O estado oculto do reveal só existe sob html.js; se o script principal não subir em 2s, html.rv-off mostra tudo. */
+(function(h){h.classList.add('js');setTimeout(function(){if(!window.__revealOn)h.classList.add('rv-off')},2000)})(document.documentElement);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#110D0E;
+  --ink-2:#1A1415;
+  --wine:#3B0F1A;
+  --wine-deep:#27090F;
+  --gold:#C9A55C;
+  --gold-soft:rgba(201,165,92,.38);
+  --ivory:#F3ECE2;
+  --mute:#CFC3B2;
+  --amber:#F2BE4B;
+  --amber-ink:#1C1303;
+  --serif:"Cormorant Garamond","Cormorant",Georgia,"Times New Roman",serif;
+  --sans:"Manrope","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  --pad:clamp(1.25rem,5vw,3rem);
+  --max:1180px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--ivory);font-family:var(--sans);font-size:1rem;line-height:1.65;overflow-x:hidden}
+img,svg,iframe{max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,ul,ol,dl,dd{margin:0}
+ul,ol{padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:var(--ink);padding:.7rem 1rem;z-index:100;font-weight:700}
+.skip:focus{left:0}
+
+/* ---------- tipografia utilitária ---------- */
+.label{font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.serif{font-family:var(--serif)}
+.wrap{width:100%;max-width:var(--max);margin-inline:auto;padding-inline:var(--pad)}
+
+/* ---------- placeholders ---------- */
+.ph{display:inline-block;font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;font-size:.82rem;line-height:1.5;font-weight:600;background:var(--amber);color:var(--amber-ink);border:1.5px dashed #6b4a00;padding:.3rem .55rem;border-radius:3px;letter-spacing:0;text-transform:none;overflow-wrap:anywhere}
+.ph.block{display:block}
+
+/* ---------- botões ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;background:var(--gold);color:var(--ink);font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:1.05rem 1.6rem;border:1px solid var(--gold);border-radius:0;transition:background .25s,color .25s,transform .25s;text-align:center;line-height:1.3}
+.btn:hover{background:var(--ivory);border-color:var(--ivory)}
+.btn svg{width:1.05rem;height:1.05rem;flex:none}
+.btn.ghost{background:transparent;color:var(--gold)}
+.btn.ghost:hover{background:var(--gold);color:var(--ink)}
+.btn.small{padding:.7rem 1.1rem;font-size:.72rem}
+
+/* ---------- header ---------- */
+.top{position:sticky;top:0;z-index:50;background:rgba(17,13,14,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--gold-soft)}
+.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.1rem 1rem;padding-block:.65rem}
+.brand{display:flex;flex-direction:column;text-decoration:none;line-height:1.1}
+.brand b{font-family:var(--serif);font-size:1.45rem;font-weight:700;letter-spacing:.01em}
+.brand span{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-top:.15rem}
+.top .cta-top{display:none}
+.nav{order:3;width:100%;overflow-x:auto;scrollbar-width:none;margin-top:.15rem}
+.nav::-webkit-scrollbar{display:none}
+.nav ul{display:flex;gap:1.35rem;white-space:nowrap;padding-block:.35rem}
+.nav a{font-size:.7rem;font-weight:700;letter-spacing:.17em;text-transform:uppercase;text-decoration:none;color:var(--mute);padding:.4rem 0;display:inline-block;border-bottom:1px solid transparent}
+.nav a:hover{color:var(--gold);border-color:var(--gold)}
+
+/* ---------- seletor de versão ---------- */
+.ver{display:inline-flex;flex:none;border:1px solid var(--gold-soft)}
+.ver a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 .8rem;font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--mute)}
+.ver a+a{border-left:1px solid var(--gold-soft)}
+.ver a:hover{color:var(--gold)}
+.ver a[aria-current="page"]{background:var(--gold);color:var(--ink);cursor:default}
+@media (pointer:fine){.ver a{min-height:34px}}
+.brand .x{font-style:normal}
+@media (max-width:479px){.top .wrap{padding-inline:1rem;column-gap:.5rem}.brand .x{display:none}.ver a{padding:0 .6rem;letter-spacing:.08em;font-size:.62rem}}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:calc(100svh - 92px);display:flex;flex-direction:column;justify-content:space-between;padding-block:clamp(2rem,6vh,4rem) clamp(2rem,5vh,3.5rem);overflow:hidden;isolation:isolate;background:radial-gradient(120% 70% at 85% 15%,rgba(59,15,26,.75),transparent 60%),var(--ink)}
+.hero .ecg{position:absolute;left:0;right:0;top:46%;width:100%;height:clamp(110px,22vh,220px);z-index:-1;opacity:.55;pointer-events:none}
+.hero .ecg path{fill:none;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.hero .ecg .base{stroke:var(--gold);stroke-width:1.2;stroke-linecap:round}
+.hero .ecg .sweep{stroke:#F1D9A4;stroke-width:2.4;stroke-linecap:butt;opacity:0}
+@media (prefers-reduced-motion:no-preference){
+  .hero .ecg .base{stroke-dasharray:4000;stroke-dashoffset:4000;animation:trace 5s ease-out .4s forwards}
+  .hero .ecg .sweep{opacity:1;stroke-dasharray:160 3840;stroke-dashoffset:160;animation:sweep 5.5s linear 3s infinite}
+  .hero.is-off .ecg path{animation-play-state:paused}
+}
+@keyframes trace{to{stroke-dashoffset:0}}
+@keyframes sweep{from{stroke-dashoffset:160}to{stroke-dashoffset:-3840}}
+.hero .meta{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:center}
+.hero .meta .line{flex:1 1 40px;height:1px;background:var(--gold-soft);min-width:40px}
+.hero h1{font-family:var(--serif);font-weight:600;line-height:.9;letter-spacing:-.015em;margin-block:clamp(2.2rem,8vh,4.5rem) clamp(1.5rem,5vh,2.5rem)}
+.hero h1 .dr{display:block;font-size:clamp(3.4rem,18vw,12.5rem);overflow-wrap:anywhere}
+.hero h1 .rest{display:block;font-style:italic;font-weight:500;font-size:clamp(1.45rem,5.6vw,3.1rem);color:var(--gold);margin-top:.6rem;line-height:1.1;letter-spacing:0}
+.hero .foot{display:grid;gap:1.6rem;align-items:end}
+.hero .role{font-size:.78rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase}
+.hero .lede{font-size:clamp(1.05rem,2.6vw,1.2rem);max-width:34rem;color:var(--mute)}
+.reg{display:inline-flex;flex-wrap:wrap;gap:.3rem 1.2rem;border:1px solid var(--gold);padding:.65rem 1rem;font-size:.76rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.reg span+span{position:relative}
+.hero .actions{display:flex;flex-direction:column;gap:1rem;align-items:flex-start}
+
+/* ---------- seções ---------- */
+section{position:relative;scroll-margin-top:96px}
+.sec{padding-block:clamp(4rem,10vw,7.5rem)}
+.sec.wine{background:var(--wine)}
+.sec.dark{background:var(--ink)}
+.sec.dark.alt{background:var(--ink-2)}
+.sec-head{display:flex;align-items:center;gap:1rem;margin-bottom:clamp(1.8rem,4vw,2.8rem)}
+.sec-head .n{font-family:var(--serif);font-size:clamp(2.6rem,7vw,4rem);font-weight:500;line-height:1;color:var(--gold)}
+.sec-head .rule{flex:1;height:1px;background:var(--gold)}
+.sec-head .label{min-width:0}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(2.2rem,6.4vw,4.1rem);line-height:1.02;letter-spacing:-.01em;max-width:18ch;margin-bottom:clamp(1.5rem,3vw,2.4rem)}
+h2 em{font-style:italic;font-weight:500;color:var(--gold)}
+.lead{font-size:1.08rem;color:var(--mute);max-width:40rem}
+.lead+.lead{margin-top:1rem}
+
+/* ---------- sobre ---------- */
+.about{display:grid;gap:2.5rem}
+.photo{position:relative;width:min(100%,360px);margin-inline:0}
+.photo .frame{position:relative;aspect-ratio:3/4;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;padding:1.2rem;background:linear-gradient(160deg,#2c0c15,#1a0a0f)}
+.photo::before{content:"";position:absolute;inset:14px -14px -14px 14px;border:1px solid var(--gold-soft);z-index:0}
+.photo .frame{z-index:1}
+.photo .ph{text-align:center;font-size:.85rem;padding:.7rem .8rem}
+.photo figcaption{margin-top:1.8rem;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.creds{border-top:1px solid var(--gold-soft);margin-top:2rem}
+.creds div{display:grid;gap:.35rem;padding-block:1.05rem;border-bottom:1px solid var(--gold-soft)}
+.creds dt{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.creds dd{color:var(--ivory)}
+
+/* ---------- serviços ---------- */
+.svc{display:grid;border-top:1px solid var(--gold-soft);margin-top:2.2rem;counter-reset:s}
+.svc li{display:grid;grid-template-columns:3.4rem 1fr;gap:.2rem 1rem;padding-block:1.5rem;border-bottom:1px solid var(--gold-soft)}
+.svc .num{font-family:var(--serif);font-size:2.1rem;line-height:1;color:var(--gold);font-weight:500;grid-row:span 2}
+.svc h3{font-family:var(--serif);font-weight:700;font-size:1.65rem;line-height:1.1}
+.svc p{color:var(--mute);font-size:.97rem;grid-column:2}
+.svc .note-cell{align-content:center}
+.svc .note-cell .ph{grid-column:1/-1}
+.note{margin-top:1.6rem}
+
+/* ---------- onde atende ---------- */
+.places{display:grid;gap:3rem;margin-top:2.4rem}
+.place h3{font-family:var(--serif);font-weight:700;font-size:1.9rem;line-height:1.1;margin-block:.5rem .9rem}
+.place address{font-style:normal;color:var(--mute);margin-bottom:1.2rem}
+.place address strong{color:var(--ivory);font-weight:600}
+.map{position:relative;border:1px solid var(--gold);padding:8px;background:var(--ink);margin-top:1.3rem}
+.map iframe{display:block;width:100%;height:300px;border:0;filter:invert(.92) hue-rotate(180deg) grayscale(.55) brightness(.82) contrast(.92) sepia(.12)}
+.map::after{content:"";position:absolute;inset:8px;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(17,13,14,.5)}
+.link{display:inline-block;color:var(--gold);font-weight:700;font-size:.74rem;letter-spacing:.17em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:.25rem}
+.link:hover{color:var(--ivory);border-color:var(--ivory)}
+.hours{margin-top:3rem;border-top:1px solid var(--gold);padding-top:1.4rem;display:grid;gap:.8rem}
+
+/* ---------- convênios ---------- */
+.conv{display:grid;gap:2rem}
+.conv .big{font-family:var(--serif);font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.12;font-weight:600}
+.conv .big em{color:var(--gold);font-weight:500}
+.conv .box{border:1px solid var(--gold);padding:1.5rem;display:grid;gap:1rem;align-content:start}
+
+/* ---------- faq ---------- */
+.faq{border-top:1px solid var(--gold-soft);max-width:52rem}
+details{border-bottom:1px solid var(--gold-soft)}
+summary{list-style:none;cursor:pointer;display:flex;align-items:flex-start;justify-content:space-between;gap:1.2rem;padding:1.3rem 0;font-family:var(--serif);font-weight:600;font-size:clamp(1.3rem,3.6vw,1.65rem);line-height:1.2}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;font-family:var(--sans);font-weight:300;font-size:1.9rem;line-height:.9;color:var(--gold);transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+summary:hover{color:var(--gold)}
+details .ans{padding:0 2.6rem 1.5rem 0;color:var(--mute);max-width:44rem}
+details .ans p+p{margin-top:.8rem}
+details .ans .ph{margin-top:.2rem}
+.urg{border-left:3px solid var(--gold);padding-left:1rem;color:var(--ivory)}
+
+/* ---------- contato ---------- */
+.contact{display:grid;gap:2.4rem}
+.contact ul{border-top:1px solid var(--gold-soft)}
+.contact li{display:grid;gap:.3rem;padding-block:1.05rem;border-bottom:1px solid var(--gold-soft)}
+.contact li span.k{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.emerg{border:1px solid var(--gold);padding:1.4rem;margin-top:2rem;color:var(--ivory)}
+.emerg b{display:block;margin-bottom:.35rem;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+
+/* ---------- rodapé ---------- */
+footer{background:var(--wine-deep);border-top:1px solid var(--gold);padding-block:3rem 6rem}
+footer .name{font-family:var(--serif);font-size:1.7rem;font-weight:700;line-height:1.15}
+footer p{color:var(--mute);font-size:.9rem;margin-top:.7rem}
+footer .reg-line{color:var(--ivory);font-weight:600;letter-spacing:.04em}
+footer .ph{margin-top:.2rem}
+footer hr{border:0;border-top:1px solid var(--gold-soft);margin:1.6rem 0}
+
+/* ---------- whatsapp flutuante ---------- */
+.fab{position:fixed;right:1rem;bottom:1rem;z-index:60;display:inline-flex;align-items:center;gap:.6rem;background:var(--gold);color:var(--ink);text-decoration:none;font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;padding:.95rem 1.2rem;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.55),0 0 0 1px rgba(17,13,14,.6)}
+.fab svg{width:1.2rem;height:1.2rem}
+
+/* ---------- tablet ---------- */
+@media (min-width:700px){
+  .hero .foot{grid-template-columns:1.2fr auto}
+  .hero .actions{align-items:flex-end}
+  .svc{grid-template-columns:1fr 1fr;column-gap:4rem}
+  .svc li{grid-template-columns:4rem 1fr}
+  .places{grid-template-columns:1fr 1fr;gap:3rem}
+  .conv{grid-template-columns:1.2fr 1fr;gap:4rem;align-items:start}
+  .contact{grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+}
+/* ---------- desktop ---------- */
+@media (min-width:1200px){
+  .top .wrap{flex-wrap:nowrap;padding-block:.9rem}
+  .nav{order:0;width:auto;overflow:visible;margin:0}
+  .nav ul{gap:2rem}
+  .top .cta-top{display:inline-flex}
+}
+@media (min-width:980px){
+  .about{grid-template-columns:5fr 7fr;gap:5rem;align-items:start}
+  .hero{min-height:calc(100svh - 74px)}
+  .photo{width:100%;max-width:420px}
+}
+@media (max-width:979px){
+  .hero{min-height:calc(100svh - 100px)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .hero .ecg path{stroke-dashoffset:0}
+}
+
+/* ===== Interações ===== */
+:root{--ease:cubic-bezier(.22,.7,.2,1)}
+
+/* Lenis (rolagem suave com inércia; só carrega em desktop sem reduced-motion) */
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+.lenis.lenis-stopped{overflow:clip}
+.lenis.lenis-scrolling iframe{pointer-events:none}
+[tabindex="-1"]:focus{outline:none}
+
+/* Scroll-reveal: classe .reveal é posta pelo JS; o oculto só vale sob html.js e cai com html.rv-off */
+html.js .reveal{transition:opacity .9s var(--ease) var(--d,0ms),translate .9s var(--ease) var(--d,0ms)}
+html.js .reveal:not(.in){opacity:0;translate:0 30px}
+html.js .sec-head.reveal .rule{transform-origin:left;transition:transform 1.1s var(--ease) calc(var(--d,0ms) + .15s)}
+html.js .sec-head.reveal:not(.in) .rule{transform:scaleX(0)}
+html.rv-off .reveal,html.rv-off .reveal .rule{opacity:1!important;translate:none!important;transform:none!important}
+@media (prefers-reduced-motion:reduce){html.js .reveal,html.js .reveal .rule{opacity:1!important;translate:none!important;transform:none!important}}
+@media print{html.js .reveal,html.js .reveal .rule{opacity:1!important;translate:none!important;transform:none!important}}
+@media (prefers-reduced-motion:no-preference){
+  .hero .meta .line{transform-origin:left;animation:grow 1.4s var(--ease) .3s backwards}
+}
+@keyframes grow{from{transform:scaleX(0)}}
+
+/* Micro-interações */
+.btn{position:relative;overflow:hidden;isolation:isolate;transition:background .25s,color .25s,border-color .25s,scale .2s var(--ease)}
+.btn::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(110deg,transparent 35%,rgba(201,165,92,.45) 50%,transparent 65%);translate:-110% 0}
+.svc .num,.svc h3{transition:translate .4s var(--ease),color .3s}
+.map{transition:border-color .3s}
+summary::after{transition:transform .3s var(--ease)}
+@media (hover:hover){
+  .svc li:hover h3{color:var(--gold)}
+  .svc li:hover .num{color:var(--ivory)}
+  .map:hover{border-color:var(--ivory)}
+}
+@media (hover:hover) and (prefers-reduced-motion:no-preference){
+  .btn:hover::after{translate:110% 0;transition:translate .8s var(--ease)}
+  .svc li:hover .num{translate:6px 0}
+  details:not([open]) summary:hover::after{transform:rotate(90deg)}
+}
+@media (prefers-reduced-motion:no-preference){
+  .btn:active,.link:active{scale:.97}
+  .svc li:active h3{color:var(--gold)}
+}
+
+/* WhatsApp fixo: visível em todas as larguras; com JS some enquanto o CTA do hero está na tela */
+.fab{transition:opacity .35s var(--ease),translate .45s var(--ease),scale .2s var(--ease),background .25s}
+.fab:hover{background:var(--ivory)}
+.fab.is-hidden{opacity:0;translate:0 calc(100% + 28px);pointer-events:none}
+.fab::after{content:"";position:absolute;inset:0;border-radius:inherit;border:1.5px solid var(--gold);opacity:0;pointer-events:none}
+@media (prefers-reduced-motion:no-preference){
+  .fab:active{scale:.96}
+  .fab::after{animation:fab-pulse 4s ease-out 1.5s infinite}
+}
+@keyframes fab-pulse{
+  0%{opacity:.7;transform:scale(1)}
+  12%{opacity:0;transform:scale(1.1,1.4)}
+  14%{opacity:.55;transform:scale(1)}
+  30%{opacity:0;transform:scale(1.12,1.5)}
+  100%{opacity:0;transform:scale(1.12,1.5)}
+}
+
+/* =====================================================================
+   VERSÃO COMPLETA — cabeçalho e blocos extras
+   ===================================================================== */
+
+/* cabeçalho: com 11 itens o menu vai para a segunda linha em qualquer largura */
+.top .wrap{flex-wrap:wrap}
+.nav{order:3;width:100%;overflow-x:auto;overflow-y:hidden;margin:.15rem 0 0}
+.nav ul{gap:1.5rem}
+.ver{margin-left:auto}
+@media (pointer:coarse){.nav ul{padding-block:0}.nav a{display:inline-flex;align-items:center;min-height:44px;padding:0}}
+.link{position:relative}
+.link::before{content:"";position:absolute;inset:-12px -6px}
+
+/* base de formulários */
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+.hint{font-size:.88rem;line-height:1.5;color:var(--mute)}
+.lbl,.fld>label{font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.fld{display:grid;gap:.45rem;min-width:0}
+.ctl{font:inherit;font-size:1rem;color:var(--ivory);background:rgba(17,13,14,.6);border:1px solid var(--gold-soft);border-radius:0;padding:.75rem .9rem;min-height:48px;width:100%;min-width:0;color-scheme:dark;appearance:none;-webkit-appearance:none}
+select.ctl{background-image:linear-gradient(45deg,transparent 50%,var(--gold) 50%),linear-gradient(135deg,var(--gold) 50%,transparent 50%);background-position:calc(100% - 20px) 55%,calc(100% - 14px) 55%;background-size:6px 6px;background-repeat:no-repeat;padding-right:2.4rem}
+textarea.ctl{min-height:6.5rem;resize:vertical;line-height:1.5}
+.ctl::placeholder{color:#a89c8b;opacity:1}
+.ctl:hover{border-color:var(--gold)}
+.ctl:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-color:var(--gold)}
+.ctl[aria-invalid="true"]{border-color:var(--amber)}
+button.btn{font-family:inherit;cursor:pointer}
+.btn.is-off{background:transparent;color:var(--mute);border:1px dashed var(--gold-soft);cursor:not-allowed}
+.btn.is-off:hover{background:transparent;border-color:var(--gold-soft)}
+.btn.is-off::after{display:none}
+.btn:disabled{background:transparent;color:var(--mute);border:1px dashed var(--gold-soft);cursor:not-allowed}
+.btn:disabled::after{display:none}
+.btn.wide{width:100%}
+.step-lg{display:flex;align-items:center;gap:.7rem;font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding:0;margin-bottom:.9rem;float:left;width:100%}
+.step-lg+*{clear:both}
+.stp{display:inline-grid;place-items:center;flex:none;width:1.8rem;height:1.8rem;border:1px solid var(--gold);font-family:var(--serif);font-size:1.15rem;letter-spacing:0;line-height:1}
+.msg{font-size:.92rem;color:var(--amber);min-height:1.4em}
+.msg:empty{display:none}
+.msg.ok{color:var(--ivory)}
+
+/* ---------- 03 agenda ---------- */
+.ag{margin-top:2.2rem;display:grid;gap:2.4rem}
+.ag-col{display:grid;gap:2.2rem;align-content:start;min-width:0}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr));gap:.5rem}
+.opt{position:relative;display:block}
+.opt input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}
+.opt span{display:flex;align-items:center;justify-content:center;min-height:48px;padding:.5rem .8rem;border:1px solid var(--gold-soft);font-weight:700;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;text-align:center;line-height:1.25;background:rgba(17,13,14,.35);transition:background .2s,color .2s,border-color .2s}
+.opt input:checked+span{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.opt input:focus-visible+span{outline:2px solid var(--gold);outline-offset:3px}
+@media (hover:hover){.opt input:not(:checked):hover+span{border-color:var(--gold)}}
+.ag-exame{margin-top:1rem}
+.cal{border:1px solid var(--gold);padding:.5rem .1rem;background:rgba(17,13,14,.35)}
+.cal-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin-bottom:.4rem;padding-inline:.4rem}
+.cal-head button{width:44px;height:44px;flex:none;background:transparent;border:1px solid var(--gold-soft);color:var(--gold);font-size:1.5rem;line-height:1;cursor:pointer;border-radius:0;padding:0}
+.cal-head button:hover:not(:disabled){border-color:var(--gold);background:rgba(201,165,92,.12)}
+.cal-head button:disabled{opacity:.3;cursor:default}
+.cal-title{font-family:var(--serif);font-size:1.55rem;font-weight:600;text-align:center}
+.cal-title::first-letter{text-transform:uppercase}
+.cal-wd,.cal-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:1px}
+.cal-wd span{text-align:center;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);font-weight:700;padding-block:.35rem}
+.cal-days button{font:inherit;font-weight:700;font-size:1rem;min-height:44px;padding:0;background:transparent;color:var(--ivory);border:1px solid var(--gold-soft);border-radius:0;cursor:pointer;transition:background .2s,color .2s}
+.cal-days button:hover:not(:disabled):not([aria-pressed="true"]){border-color:var(--gold);background:rgba(201,165,92,.14)}
+.cal-days button:disabled{color:rgba(207,195,178,.42);border-color:transparent;font-weight:500;cursor:default}
+.cal-days button[aria-pressed="true"]{background:var(--gold);color:var(--ink);border-color:var(--gold)}
+.cal-key{display:grid;gap:.35rem;margin-top:.8rem}
+.cal-key i{display:inline-block;width:.95rem;height:.95rem;border:1px solid var(--gold-soft);vertical-align:-2px;margin-right:.45rem}
+.sl-h{font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin:1rem 0 .5rem}
+.sl-h:first-child{margin-top:0}
+.slots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+@media (min-width:480px){.slots{grid-template-columns:repeat(auto-fill,minmax(5.4rem,1fr))}}
+.slots button{font:inherit;font-weight:700;font-size:.95rem;min-height:44px;padding:0;background:rgba(17,13,14,.35);color:var(--ivory);border:1.5px dashed var(--gold-soft);border-radius:0;cursor:pointer}
+.slots button:hover:not([aria-pressed="true"]){border-color:var(--gold);border-style:solid}
+.slots button[aria-pressed="true"]{background:var(--gold);color:var(--ink);border:1.5px solid var(--gold)}
+.slots-box{border:1px solid var(--gold-soft);padding:1.1rem;min-height:5rem}
+.slots-box .ph{margin-bottom:.9rem}
+.ag-sum{border:1px solid var(--gold);padding:1.2rem 1.3rem;background:rgba(17,13,14,.35)}
+.ag-sum b{display:block;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.45rem}
+.ag-sum p{font-family:var(--serif);font-size:1.45rem;line-height:1.25;overflow-wrap:anywhere}
+.ag-actions{display:flex;flex-wrap:wrap;gap:.8rem}
+.ag-actions .btn{flex:1 1 15rem}
+@media (min-width:980px){.ag{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:4.5rem;align-items:start}}
+
+/* ---------- 04 preparo ---------- */
+.prep{max-width:58rem}
+.pp div{display:grid;gap:.25rem;padding-block:.85rem;border-top:1px solid var(--gold-soft)}
+.pp dt{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);padding-top:.15rem}
+.pp dd{color:var(--ivory)}
+.prep details .ans{padding-right:0;max-width:none}
+.pp-note{margin-top:1rem;display:grid;gap:.8rem;justify-items:start}
+@media (min-width:700px){.pp div{grid-template-columns:10rem 1fr;gap:1.5rem}}
+
+/* ---------- 07 diário ---------- */
+.priv{margin-top:1.4rem;font-size:.95rem;color:var(--ivory);max-width:40rem;border-left:3px solid var(--gold);padding-left:1rem}
+.dp-grid{display:grid;gap:2.6rem;margin-top:2rem}
+.dp-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.dp-form .full{grid-column:1/-1}
+.howto{border:1px solid var(--gold);padding:1.4rem;margin-top:2rem}
+.howto h3{font-family:var(--serif);font-weight:700;font-size:1.7rem;line-height:1.1;margin-bottom:1rem}
+.howto ol{counter-reset:h;display:grid;gap:.75rem}
+.howto li{counter-increment:h;display:grid;grid-template-columns:1.8rem 1fr;gap:.6rem;align-items:baseline}
+.howto li::before{content:counter(h);font-family:var(--serif);font-size:1.55rem;line-height:1;color:var(--gold)}
+.dp-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--gold);border-left:1px solid var(--gold)}
+.dp-stats>div{padding:1rem 1.1rem;border-right:1px solid var(--gold);border-bottom:1px solid var(--gold)}
+.dp-stats>.w{grid-column:1/-1}
+@media (min-width:700px){.dp-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.dp-stats>.w{grid-column:auto}}
+.dp-stats .k{display:block;font-size:.66rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem}
+.dp-stats .v{display:block;font-family:var(--serif);font-size:2.1rem;line-height:1.05;font-weight:600;font-variant-numeric:lining-nums}
+.dp-stats .v small{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.06em;color:var(--mute)}
+.dp-chart{margin-top:1.4rem;border:1px solid var(--gold-soft);padding:.8rem .8rem .5rem}
+.dp-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.dp-chart .ax{stroke:var(--gold-soft);stroke-width:1}
+.dp-chart .tx{fill:var(--mute);font:600 10.5px var(--sans)}
+.dp-chart .ls{fill:none;stroke:var(--gold);stroke-width:2;stroke-linejoin:round}
+.dp-chart .ld{fill:none;stroke:var(--ivory);stroke-width:2;stroke-linejoin:round;stroke-dasharray:5 4}
+.dp-chart .ps{fill:var(--gold)}
+.dp-chart .pd{fill:var(--wine);stroke:var(--ivory);stroke-width:2}
+.dp-leg{display:flex;flex-wrap:wrap;gap:.3rem 1.4rem;margin-top:.5rem;font-size:.82rem;color:var(--mute)}
+.dp-leg i{display:inline-block;width:.8rem;height:.8rem;margin-right:.45rem;vertical-align:-1px}
+.dp-leg .a{background:var(--gold);border-radius:50%}
+.dp-leg .b{border:2px solid var(--ivory);border-radius:50%}
+.dp-list{margin-top:1.4rem;border-top:1px solid var(--gold-soft)}
+.dp-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.15rem 1rem;padding-block:1rem;border-bottom:1px solid var(--gold-soft);align-items:center}
+.dp-when{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.dp-val{font-family:var(--serif);font-size:2rem;font-weight:600;line-height:1.05;font-variant-numeric:lining-nums}
+.dp-val small{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.06em;color:var(--mute)}
+.dp-sub,.dp-obs{color:var(--mute);font-size:.92rem;overflow-wrap:anywhere}
+.dp-row>div{grid-column:1}
+.dp-del{grid-column:2;grid-row:1 / span 4;min-width:44px;min-height:44px;padding:.4rem .7rem;background:transparent;color:var(--mute);border:1px solid var(--gold-soft);font:700 .68rem var(--sans);letter-spacing:.14em;text-transform:uppercase;cursor:pointer;border-radius:0}
+.dp-del:hover{color:var(--ivory);border-color:var(--gold)}
+.dp-empty{padding-block:1.4rem;color:var(--mute)}
+.dp-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+.dp-actions .btn{flex:1 1 13rem}
+.confirm{border:1px solid var(--amber);padding:1rem 1.1rem;margin-top:1rem;display:grid;gap:.8rem}
+.confirm[hidden]{display:none}
+.confirm .row{display:flex;flex-wrap:wrap;gap:.7rem}
+.confirm .btn{flex:1 1 10rem}
+.dp-note{margin-top:1.2rem;font-size:.92rem;color:var(--ivory)}
+@media (min-width:980px){.dp-grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:4rem;align-items:start}}
+
+/* ---------- 08 ficha pré-consulta ---------- */
+.fc-grid{display:grid;gap:2.6rem;margin-top:2rem}
+.fc-form{display:grid;gap:1.15rem}
+.chk{display:flex;align-items:flex-start;gap:.9rem;min-height:48px;padding:.65rem .1rem;border-bottom:1px solid var(--gold-soft);cursor:pointer;line-height:1.4}
+.chk input{width:1.45rem;height:1.45rem;margin:.05rem 0 0;flex:none;accent-color:var(--gold);cursor:pointer}
+.chk:first-of-type{border-top:1px solid var(--gold-soft)}
+.fc-out{min-width:0}
+.fc-hint{border:1px dashed var(--gold-soft);padding:1.6rem;color:var(--mute)}
+.sheet{border:1px solid var(--gold);padding:1.6rem;background:rgba(17,13,14,.4)}
+.sheet h3{font-family:var(--serif);font-weight:700;font-size:1.7rem;line-height:1.1;margin-top:.5rem}
+.sheet .sh-meta{margin-top:.5rem;color:var(--mute);font-size:.92rem}
+.sheet dl{margin-top:1.2rem;border-top:1px solid var(--gold-soft)}
+.sheet dl div{padding-block:.8rem;border-bottom:1px solid var(--gold-soft)}
+.sheet dt{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+.sheet dd{white-space:pre-wrap;overflow-wrap:anywhere}
+.sheet h4{font-size:.68rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin:1.2rem 0 .5rem;font-family:var(--sans)}
+.sheet .tk{display:grid;gap:.4rem}
+.sheet .tk li{display:grid;grid-template-columns:1.2rem 1fr;gap:.6rem;align-items:center}
+.sheet .bx{display:inline-grid;place-items:center;width:1.1rem;height:1.1rem;border:1.5px solid var(--gold);font:700 .8rem/1 var(--sans)}
+.sheet .sh-foot{margin-top:1.2rem;font-size:.82rem;color:var(--mute)}
+.fc-actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1rem}
+.fc-actions .btn{flex:1 1 13rem}
+@media (min-width:980px){.fc-grid{grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:4rem;align-items:start}.fc-out{position:sticky;top:130px}}
+
+/* ---------- 09 leitura ---------- */
+.cards{display:grid;gap:1.4rem;margin-top:2.2rem}
+.card{border:1px solid var(--gold);padding:1.7rem;display:grid;gap:1rem;align-content:start;background:rgba(17,13,14,.3);transition:border-color .3s}
+.card .label{color:var(--gold)}
+.card h3{font-family:var(--serif);font-weight:700;font-size:1.8rem;line-height:1.1}
+.card p{color:var(--mute);font-size:.98rem}
+.card p.urg{color:var(--ivory)}
+.card .link{justify-self:start}
+.card .foot{border-top:1px solid var(--gold-soft);padding-top:.9rem;font-size:.8rem;color:var(--mute)}
+@media (hover:hover){.card:hover{border-color:var(--ivory)}}
+@media (min-width:900px){.cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.6rem}}
+
+/* ---------- impressão (diário e ficha) ---------- */
+.print-only{display:none}
+@media print{
+  @page{margin:14mm}
+  body[data-print]{background:#fff!important;color:#111!important}
+  body[data-print] .top,body[data-print] footer,body[data-print] .fab,body[data-print] .skip,
+  body[data-print] .no-print{display:none!important}
+  body[data-print="diario"] main>section:not(#diario),
+  body[data-print="ficha"] main>section:not(#consulta){display:none!important}
+  body[data-print] main>section{background:#fff!important;padding:0!important}
+  body[data-print] .print-only{display:block!important}
+  body[data-print] #diario *,body[data-print] #consulta *{color:#111!important;border-color:#666!important;box-shadow:none!important;text-shadow:none!important}
+  body[data-print] .dp-grid,body[data-print] .fc-grid{display:block!important;margin:0!important}
+  body[data-print] .sheet{background:#fff!important}
+  body[data-print] .sheet{border:0!important;padding:0!important}
+  body[data-print] .fc-out{position:static!important}
+  body[data-print] .dp-chart .ax{stroke:#999}
+  body[data-print] .dp-chart .tx{fill:#111}
+  body[data-print] .dp-chart .ls{stroke:#111}
+  body[data-print] .dp-chart .ld{stroke:#111}
+  body[data-print] .dp-chart .ps{fill:#111}
+  body[data-print] .dp-chart .pd{fill:#fff;stroke:#111}
+  body[data-print] .dp-leg .a{background:#111!important}
+  body[data-print] .dp-leg .b{border-color:#111!important}
+  body[data-print] .pr-head{margin-bottom:1rem}
+  body[data-print] .pr-head h2{font-size:22pt;max-width:none;margin:0}
+  body[data-print] .pr-head p{margin-top:.3rem;font-size:10pt}
+  body[data-print] .dp-row,body[data-print] .sheet dl div{break-inside:avoid}
+  body[data-print] .dp-val{font-size:16pt}
+  body[data-print] .sheet .bx{border-color:#111!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio" aria-label="Dr. Guilherme Henrique Figueiredo de Oliveira, início">
+      <b>Dr. Guilherme</b>
+      <span><i class="x">Cardiologista · </i>CRM-MG 48540</span>
+    </a>
+    <nav class="nav" aria-label="Seções da página">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#preparo">Preparo</a></li>
+        <li><a href="#onde">Onde atende</a></li>
+        <li><a href="#convenios">Convênios</a></li>
+        <li><a href="#diario">Diário</a></li>
+        <li><a href="#consulta">Sua consulta</a></li>
+        <li><a href="#leitura">Leitura</a></li>
+        <li><a href="#faq">Perguntas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="ver" role="group" aria-label="Versão do site">
+      <a href="./">Essencial</a>
+      <a href="completo" aria-current="page">Completa</a>
+    </div>
+    <a class="btn small cta-top" href="https://wa.me/PREENCHER_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Guilherme." target="_blank" rel="noopener">Agendar consulta</a>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- HERO -->
+<section id="inicio" class="hero" aria-labelledby="titulo-hero">
+  <svg class="ecg" viewBox="0 0 1600 200" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path class="base" d="M0 100 H180 L200 100 L215 88 L232 100 H300 L318 104 L336 28 L360 172 L384 100 H430 L450 100 L478 70 L510 100 H760 L780 100 L795 88 L812 100 H880 L898 104 L916 28 L940 172 L964 100 H1010 L1030 100 L1058 70 L1090 100 H1340 L1360 100 L1375 88 L1392 100 H1460 L1478 104 L1496 28 L1520 172 L1544 100 H1600"/>
+    <path class="sweep" d="M0 100 H180 L200 100 L215 88 L232 100 H300 L318 104 L336 28 L360 172 L384 100 H430 L450 100 L478 70 L510 100 H760 L780 100 L795 88 L812 100 H880 L898 104 L916 28 L940 172 L964 100 H1010 L1030 100 L1058 70 L1090 100 H1340 L1360 100 L1375 88 L1392 100 H1460 L1478 104 L1496 28 L1520 172 L1544 100 H1600"/>
+  </svg>
+  <div class="wrap">
+    <div class="meta">
+      <span class="label">Cardiologia</span>
+      <span class="line" aria-hidden="true"></span>
+      <span class="label">Coronel Fabriciano · Vale do Aço, MG</span>
+    </div>
+    <h1 id="titulo-hero">
+      <span class="dr">Dr. Guilherme</span>
+      <span class="rest">Henrique Figueiredo de Oliveira</span>
+    </h1>
+  </div>
+  <div class="wrap">
+    <div class="foot">
+      <div style="display:grid;gap:1.1rem">
+        <p class="role">Médico Cardiologista</p>
+        <p class="lede">Consulta cardiológica com conversa sobre a sua história, o seu dia a dia e os próximos passos do cuidado com o coração.</p>
+        <p class="reg"><span>CRM-MG 48540</span><span>RQE 40142 (Cardiologia)</span></p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="https://wa.me/PREENCHER_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Guilherme." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.46 15.04L2 22l5.1-1.55A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.96l-.3-.19-3 .91.93-2.93-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 4.1c-.17 0-.45.06-.69.32-.24.26-.9.88-.9 2.15s.92 2.5 1.05 2.67c.13.17 1.8 2.86 4.4 3.9 2.17.86 2.6.69 3.07.65.47-.04 1.5-.61 1.71-1.2.21-.6.21-1.1.15-1.2-.06-.11-.23-.17-.49-.3-.26-.13-1.5-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.3.19-.56.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.28-1.52-1.43-1.77-.15-.26-.02-.4.11-.52.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.08-.17.04-.32-.02-.45-.06-.13-.57-1.4-.78-1.9-.2-.5-.42-.43-.57-.44h-.49Z"/></svg>
+          Agendar consulta pelo WhatsApp
+        </a>
+        <span class="label" style="color:var(--mute)">Atendimento particular</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 01 SOBRE -->
+<section id="sobre" class="sec wine" aria-labelledby="t-sobre">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">01</span><span class="rule" aria-hidden="true"></span><span class="label">Sobre</span></div>
+    <div class="about">
+      <figure class="photo" style="margin:0">
+        <div class="frame" role="img" aria-label="Espaço reservado para a foto profissional do Dr. Guilherme">
+          <span class="ph">[PREENCHER: foto profissional do Dr. Guilherme, retrato vertical 3:4]</span>
+        </div>
+        <figcaption>Dr. Guilherme H. F. de Oliveira</figcaption>
+      </figure>
+      <div>
+        <h2 id="t-sobre">Cardiologia com <em>escuta</em> e clareza.</h2>
+        <p class="lead">O Dr. Guilherme Henrique Figueiredo de Oliveira é médico cardiologista, inscrito no CRM-MG sob o número 48540, com registro de especialista em Cardiologia (RQE 40142).</p>
+        <p class="lead">Atende em consultório particular em Coronel Fabriciano, para moradores da cidade e do Vale do Aço.</p>
+        <dl class="creds">
+          <div><dt>Registro</dt><dd>CRM-MG 48540 · RQE 40142 (Cardiologia)</dd></div>
+          <div><dt>Graduação</dt><dd><span class="ph">[PREENCHER: instituição e ano de graduação em Medicina]</span></dd></div>
+          <div><dt>Residência</dt><dd><span class="ph">[PREENCHER: instituição da residência em Cardiologia]</span></dd></div>
+          <div><dt>Títulos e sociedades</dt><dd><span class="ph">[PREENCHER: títulos, sociedades e cursos de aperfeiçoamento, se houver]</span></dd></div>
+          <div><dt>Atuação hospitalar</dt><dd>Hospital Márcio Cunha, Ipatinga – MG<br><span class="ph" style="margin-top:.5rem">[PREENCHER: confirmar com o médico o tipo de atendimento no hospital e se pode ser divulgado]</span></dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 SERVIÇOS -->
+<section id="servicos" class="sec dark" aria-labelledby="t-serv">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">02</span><span class="rule" aria-hidden="true"></span><span class="label">Serviços e exames</span></div>
+    <h2 id="t-serv">Do primeiro olhar ao <em>acompanhamento</em>.</h2>
+    <p class="lead">Atendimentos e exames comuns da cardiologia. A indicação de cada um depende da avaliação clínica.</p>
+    <p class="note"><span class="ph">[PREENCHER: confirmar com o médico quais serviços e exames são realizados no consultório]</span></p>
+    <ol class="svc">
+      <li><span class="num" aria-hidden="true">01</span><h3>Consulta cardiológica</h3><p>Avaliação do coração e da circulação a partir da sua história, dos sintomas, dos hábitos e dos medicamentos em uso.</p></li>
+      <li><span class="num" aria-hidden="true">02</span><h3>Avaliação de risco cardiovascular</h3><p>Análise de fatores como pressão, colesterol, glicemia, tabagismo e histórico familiar para orientar o acompanhamento.</p></li>
+      <li><span class="num" aria-hidden="true">03</span><h3>Check-up cardiológico</h3><p>Revisão periódica da saúde do coração, com exames solicitados conforme a necessidade de cada pessoa.</p></li>
+      <li><span class="num" aria-hidden="true">04</span><h3>Acompanhamento de hipertensão arterial</h3><p>Reavaliações da pressão ao longo do tempo, com orientação sobre tratamento e hábitos do dia a dia.</p></li>
+      <li><span class="num" aria-hidden="true">05</span><h3>Acompanhamento de arritmias</h3><p>Investigação e seguimento de alterações do ritmo do coração, como palpitações e batimentos irregulares.</p></li>
+      <li><span class="num" aria-hidden="true">06</span><h3>Avaliação cardiológica pré-operatória</h3><p>Avaliação do coração antes de um procedimento programado, para orientar a conduta junto à equipe responsável.</p></li>
+      <li><span class="num" aria-hidden="true">07</span><h3>Eletrocardiograma (ECG)</h3><p>Registro rápido e não invasivo da atividade elétrica do coração.</p></li>
+      <li><span class="num" aria-hidden="true">08</span><h3>Holter 24 horas</h3><p>Gravação contínua do ritmo do coração durante um dia de atividades habituais.</p></li>
+      <li><span class="num" aria-hidden="true">09</span><h3>MAPA</h3><p>Monitorização ambulatorial da pressão arterial, com medidas automáticas ao longo de 24 horas.</p></li>
+      <li><span class="num" aria-hidden="true">10</span><h3>Ecocardiograma</h3><p>Exame de imagem por ultrassom que mostra a estrutura e o funcionamento do coração.</p></li>
+      <li><span class="num" aria-hidden="true">11</span><h3>Teste ergométrico</h3><p>Avaliação do coração durante o esforço físico, com monitorização do ritmo e da pressão.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 03 AGENDA ONLINE -->
+<section id="agenda" class="sec wine" aria-labelledby="t-agenda">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">03</span><span class="rule" aria-hidden="true"></span><span class="label">Agenda online</span></div>
+    <h2 id="t-agenda">Peça o seu <em>horário</em>.</h2>
+    <p class="lead">Escolha o tipo de atendimento, o dia e o horário. O pedido segue pelo WhatsApp e o consultório confirma: nada fica marcado antes da confirmação.</p>
+    <p class="note"><span class="ph">Horários de exemplo — [PREENCHER: agenda real do consultório]</span></p>
+
+    <form class="ag" id="ag" novalidate>
+      <div class="ag-col">
+        <fieldset>
+          <legend class="step-lg"><span class="stp" aria-hidden="true">1</span>Tipo de atendimento</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="ag-tipo" value="Primeira consulta"><span>Primeira consulta</span></label>
+            <label class="opt"><input type="radio" name="ag-tipo" value="Retorno"><span>Retorno</span></label>
+            <label class="opt"><input type="radio" name="ag-tipo" value="Exame"><span>Exame</span></label>
+          </div>
+          <div class="fld ag-exame" id="ag-exame-w" hidden>
+            <label for="ag-exame">Qual exame?</label>
+            <select class="ctl" id="ag-exame">
+              <option value="">Escolha o exame</option>
+              <option>Eletrocardiograma (ECG)</option>
+              <option>Holter 24 horas</option>
+              <option>MAPA</option>
+              <option>Ecocardiograma</option>
+              <option>Teste ergométrico</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="step-lg"><span class="stp" aria-hidden="true">2</span>Dia</legend>
+          <div class="cal">
+            <div class="cal-head">
+              <button type="button" id="cal-prev" aria-label="Mês anterior">&#8249;</button>
+              <span class="cal-title" id="cal-title" aria-live="polite"></span>
+              <button type="button" id="cal-next" aria-label="Próximo mês">&#8250;</button>
+            </div>
+            <div class="cal-wd" aria-hidden="true"><span>Dom</span><span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span></div>
+            <div class="cal-days" id="cal-days" role="group" aria-label="Dias disponíveis nos próximos 30 dias"></div>
+          </div>
+          <p class="hint cal-key"><span><i aria-hidden="true"></i>Dia com horários de exemplo (seg, qua e sex)</span><span>Dias apagados não estão disponíveis</span></p>
+        </fieldset>
+      </div>
+
+      <div class="ag-col">
+        <fieldset>
+          <legend class="step-lg"><span class="stp" aria-hidden="true">3</span>Horário</legend>
+          <div class="slots-box" id="ag-slots-box">
+            <span class="ph">Horários de exemplo</span>
+            <p class="hint" id="ag-slots-hint">Escolha um dia no calendário para ver os horários.</p>
+            <div id="ag-slots" role="group" aria-label="Horários de exemplo" hidden></div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend class="step-lg"><span class="stp" aria-hidden="true">4</span>Seus dados</legend>
+          <div class="fld">
+            <label for="ag-nome">Nome completo</label>
+            <input class="ctl" id="ag-nome" type="text" autocomplete="name" maxlength="80" placeholder="Como devemos chamar você">
+          </div>
+          <div class="fld" style="margin-top:1rem">
+            <label for="ag-alt">Se esse horário não estiver livre (opcional)</label>
+            <select class="ctl" id="ag-alt">
+              <option value="">Prefiro que o consultório sugira</option>
+              <option>Posso em outro horário de manhã</option>
+              <option>Posso em outro horário à tarde</option>
+              <option>Posso em outro dia da semana</option>
+            </select>
+          </div>
+          <p class="hint" style="margin-top:.9rem">Não escreva sintomas nem dados de saúde aqui. Para levar essas informações à consulta, use a <a href="#consulta" class="link" style="font-size:inherit;letter-spacing:.04em;text-transform:none">ficha pré-consulta</a>.</p>
+        </fieldset>
+
+        <div>
+          <div class="ag-sum" aria-live="polite"><b>Seu pedido</b><p id="ag-resumo">Escolha o tipo, o dia e o horário.</p></div>
+          <p class="msg" id="ag-msg" role="status" style="margin-top:.8rem"></p>
+          <div class="ag-actions" style="margin-top:.8rem">
+            <a class="btn is-off" id="ag-send" href="#agenda" target="_blank" rel="noopener" aria-disabled="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.46 15.04L2 22l5.1-1.55A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.96l-.3-.19-3 .91.93-2.93-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 4.1c-.17 0-.45.06-.69.32-.24.26-.9.88-.9 2.15s.92 2.5 1.05 2.67c.13.17 1.8 2.86 4.4 3.9 2.17.86 2.6.69 3.07.65.47-.04 1.5-.61 1.71-1.2.21-.6.21-1.1.15-1.2-.06-.11-.23-.17-.49-.3-.26-.13-1.5-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.3.19-.56.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.28-1.52-1.43-1.77-.15-.26-.02-.4.11-.52.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.08-.17.04-.32-.02-.45-.06-.13-.57-1.4-.78-1.9-.2-.5-.42-.43-.57-.44h-.49Z"/></svg>
+              Enviar pedido pelo WhatsApp</a>
+            <button type="button" class="btn ghost is-off" id="ag-ics" aria-disabled="true">Adicionar lembrete ao calendário</button>
+          </div>
+          <p class="hint" style="margin-top:1rem">Isto é um pedido, não um agendamento. O consultório responde confirmando ou sugerindo outro horário. O lembrete do calendário sai marcado &ldquo;(a confirmar)&rdquo;.</p>
+          <p class="hint" style="margin-top:.6rem">Prefere falar direto? <a class="link" style="font-size:inherit;letter-spacing:.04em;text-transform:none" href="https://wa.me/PREENCHER_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Guilherme." target="_blank" rel="noopener">Abrir o WhatsApp</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- 04 PREPARO PARA EXAMES -->
+<section id="preparo" class="sec dark" aria-labelledby="t-prep">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">04</span><span class="rule" aria-hidden="true"></span><span class="label">Preparo para exames</span></div>
+    <h2 id="t-prep">Antes do <em>exame</em>.</h2>
+    <p class="lead">Orientações gerais para os exames mais comuns. O preparo definitivo depende do pedido médico e de onde o exame é feito.</p>
+    <div class="faq prep">
+      <details name="preparo">
+        <summary>Eletrocardiograma (ECG)</summary>
+        <div class="ans">
+          <dl class="pp">
+            <div><dt>O que é</dt><dd>Registro rápido e indolor da atividade elétrica do coração, feito com pequenos eletrodos colados na pele.</dd></div>
+            <div><dt>Duração</dt><dd>Em geral, cerca de 10 a 15 minutos, contando a preparação.</dd></div>
+            <div><dt>Como se preparar</dt><dd>Não costuma exigir preparo especial. Vá com roupa fácil de abrir na parte de cima.</dd></div>
+            <div><dt>O que levar</dt><dd>Documento com foto, pedido médico, exames anteriores e a lista dos remédios que usa.</dd></div>
+            <div><dt>O que evitar</dt><dd>Cremes e óleos no peito no dia do exame.</dd></div>
+          </dl>
+          <div class="pp-note"><p class="urg">Medicamentos: não suspenda nenhum remédio sem orientação do médico.</p><span class="ph">[PREENCHER: confirmar com o médico/laboratório o preparo e onde o exame é feito]</span></div>
+        </div>
+      </details>
+      <details name="preparo">
+        <summary>Holter 24 horas</summary>
+        <div class="ans">
+          <dl class="pp">
+            <div><dt>O que é</dt><dd>Gravação contínua do ritmo do coração durante um dia de atividades habituais, com eletrodos e um pequeno gravador.</dd></div>
+            <div><dt>Duração</dt><dd>24 horas de uso. A colocação e a retirada do aparelho levam alguns minutos.</dd></div>
+            <div><dt>Como se preparar</dt><dd>Tome banho antes de ir, porque o aparelho não pode molhar. Use roupa de botão, mantenha a sua rotina e anote sintomas e horários, por exemplo no <a class="link" style="font-size:inherit;letter-spacing:.04em;text-transform:none" href="#diario">diário</a>.</dd></div>
+            <div><dt>O que levar</dt><dd>Documento com foto, pedido médico, lista de remédios e um caderno ou o diário impresso para as anotações.</dd></div>
+            <div><dt>O que evitar</dt><dd>Molhar o aparelho (banho, piscina) e retirar eletrodos ou gravador por conta própria.</dd></div>
+          </dl>
+          <div class="pp-note"><p class="urg">Medicamentos: não suspenda nenhum remédio sem orientação do médico.</p><span class="ph">[PREENCHER: confirmar com o médico/laboratório o preparo e onde o exame é feito]</span></div>
+        </div>
+      </details>
+      <details name="preparo">
+        <summary>MAPA (pressão em 24 horas)</summary>
+        <div class="ans">
+          <dl class="pp">
+            <div><dt>O que é</dt><dd>Monitorização ambulatorial da pressão arterial: um manguito no braço mede a pressão automaticamente ao longo de 24 horas.</dd></div>
+            <div><dt>Duração</dt><dd>24 horas de uso. A colocação e a retirada do aparelho levam alguns minutos.</dd></div>
+            <div><dt>Como se preparar</dt><dd>Tome banho antes de ir, porque o aparelho não pode molhar. A cada medida, pare o que estiver fazendo e deixe o braço relaxado e estendido. Anote atividades, sono e horário dos remédios, por exemplo no <a class="link" style="font-size:inherit;letter-spacing:.04em;text-transform:none" href="#diario">diário</a>.</dd></div>
+            <div><dt>O que levar</dt><dd>Documento com foto, pedido médico e a lista dos remédios que usa, com os horários.</dd></div>
+            <div><dt>O que evitar</dt><dd>Molhar o aparelho e mexer o braço durante a medida.</dd></div>
+          </dl>
+          <div class="pp-note"><p class="urg">Medicamentos: não suspenda nenhum remédio sem orientação do médico.</p><span class="ph">[PREENCHER: confirmar com o médico/laboratório o preparo e onde o exame é feito]</span></div>
+        </div>
+      </details>
+      <details name="preparo">
+        <summary>Ecocardiograma</summary>
+        <div class="ans">
+          <dl class="pp">
+            <div><dt>O que é</dt><dd>Exame de imagem por ultrassom que mostra a estrutura e o funcionamento do coração.</dd></div>
+            <div><dt>Duração</dt><dd>Em geral, cerca de 30 a 40 minutos.</dd></div>
+            <div><dt>Como se preparar</dt><dd>Em geral, não exige preparo. Vá com roupa fácil de abrir na parte de cima.</dd></div>
+            <div><dt>O que levar</dt><dd>Documento com foto, pedido médico, ecocardiogramas e outros exames anteriores.</dd></div>
+            <div><dt>O que evitar</dt><dd>Em geral, nada específico.</dd></div>
+          </dl>
+          <div class="pp-note"><p class="urg">Medicamentos: não suspenda nenhum remédio sem orientação do médico.</p><span class="ph">[PREENCHER: confirmar com o médico/laboratório o preparo e onde o exame é feito]</span></div>
+        </div>
+      </details>
+      <details name="preparo">
+        <summary>Teste ergométrico</summary>
+        <div class="ans">
+          <dl class="pp">
+            <div><dt>O que é</dt><dd>Avaliação do coração durante o esforço físico em esteira, com monitorização do ritmo e da pressão.</dd></div>
+            <div><dt>Duração</dt><dd>Em geral, cerca de 30 a 45 minutos no total.</dd></div>
+            <div><dt>Como se preparar</dt><dd>Use roupa confortável e tênis. Faça uma refeição leve cerca de 2 horas antes.</dd></div>
+            <div><dt>O que levar</dt><dd>Documento com foto, pedido médico, exames anteriores e a lista dos remédios que usa.</dd></div>
+            <div><dt>O que evitar</dt><dd>Fumar e tomar café nas horas anteriores. Não suspenda remédios por conta própria: só se o médico orientar.</dd></div>
+          </dl>
+          <div class="pp-note"><p class="urg">Medicamentos: não suspenda nenhum remédio sem orientação do médico.</p><span class="ph">[PREENCHER: confirmar com o médico/laboratório o preparo e onde o exame é feito]</span></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 05 ONDE ATENDE -->
+<section id="onde" class="sec wine" aria-labelledby="t-onde">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">05</span><span class="rule" aria-hidden="true"></span><span class="label">Onde atende</span></div>
+    <h2 id="t-onde">No Centro de <em>Coronel Fabriciano</em>.</h2>
+    <div class="places">
+      <article class="place">
+        <span class="label">Consultório</span>
+        <h3>Consultório particular</h3>
+        <address><strong>Rua Maria Matos, 471, Sala 01</strong><br>Centro, Coronel Fabriciano – MG<br>CEP 35170-111</address>
+        <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Maria+Matos,+471,+Centro,+Coronel+Fabriciano+-+MG,+35170-111" target="_blank" rel="noopener">Como chegar</a>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Rua+Maria+Matos,+471,+Centro,+Coronel+Fabriciano+-+MG,+35170-111&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa do consultório em Coronel Fabriciano"></iframe>
+        </div>
+      </article>
+      <article class="place">
+        <span class="label">Atuação hospitalar</span>
+        <h3>Hospital Márcio Cunha</h3>
+        <address><strong>Ipatinga – MG</strong></address>
+        <span class="ph block">[PREENCHER: confirmar com o médico o tipo de atendimento no hospital e se pode ser divulgado]</span>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Hospital+M%C3%A1rcio+Cunha,+Ipatinga+-+MG&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa do Hospital Márcio Cunha em Ipatinga"></iframe>
+        </div>
+      </article>
+    </div>
+    <div class="hours">
+      <span class="label">Horários de atendimento</span>
+      <span class="ph block">[PREENCHER: dias e horários de atendimento no consultório]</span>
+    </div>
+  </div>
+</section>
+
+<!-- 06 CONVÊNIOS -->
+<section id="convenios" class="sec dark" aria-labelledby="t-conv">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">06</span><span class="rule" aria-hidden="true"></span><span class="label">Convênios e forma de atendimento</span></div>
+    <div class="conv">
+      <div>
+        <h2 id="t-conv">Atendimento <em>particular</em>.</h2>
+        <p class="big">As consultas no consultório são particulares.</p>
+      </div>
+      <div class="box">
+        <p class="lead">Para dúvidas sobre formas de pagamento e documentos da consulta, fale com o consultório pelo WhatsApp.</p>
+        <span class="ph block">[PREENCHER: confirmar convênios aceitos, se houver, e emissão de recibo para reembolso]</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 DIÁRIO DA PRESSÃO -->
+<section id="diario" class="sec wine" aria-labelledby="t-diario">
+  <div class="wrap">
+    <div class="sec-head no-print"><span class="n" aria-hidden="true">07</span><span class="rule" aria-hidden="true"></span><span class="label">Diário da pressão</span></div>
+    <h2 id="t-diario" class="no-print">Registre a sua <em>pressão</em>.</h2>
+    <p class="lead no-print">Anote as medidas feitas em casa e leve os registros para a consulta; quem interpreta é o médico.</p>
+    <p class="priv no-print">Os registros ficam só neste aparelho, neste navegador. Nada é enviado para nenhum servidor. <span id="dp-ls-warn" hidden>Este navegador não permite guardar dados: os registros duram apenas enquanto esta página estiver aberta.</span></p>
+    <div class="emerg no-print"><b>Urgência</b>Pressão muito alta com dor no peito, falta de ar, fraqueza ou dormência de um lado do corpo, confusão ou dificuldade para falar: não espere consulta. Ligue 192 (SAMU) ou vá ao pronto-socorro mais próximo.</div>
+
+    <div class="dp-grid">
+      <div class="no-print">
+        <form id="dp-form" novalidate>
+          <fieldset>
+            <legend class="step-lg"><span class="stp" aria-hidden="true">+</span>Nova medida</legend>
+            <div class="dp-form">
+            <div class="fld full"><label for="dp-t">Data e hora</label><input class="ctl" id="dp-t" type="datetime-local"></div>
+            <div class="fld"><label for="dp-s">Sistólica</label><input class="ctl" id="dp-s" type="number" inputmode="numeric" min="40" max="300" step="1" placeholder="a maior: 120"></div>
+            <div class="fld"><label for="dp-d">Diastólica</label><input class="ctl" id="dp-d" type="number" inputmode="numeric" min="20" max="200" step="1" placeholder="a menor: 80"></div>
+            <div class="fld"><label for="dp-p">Pulso (opcional)</label><input class="ctl" id="dp-p" type="number" inputmode="numeric" min="20" max="250" step="1" placeholder="batimentos/min"></div>
+            <div class="fld"><label for="dp-b">Braço</label>
+              <select class="ctl" id="dp-b"><option value="">Não informar</option><option>Esquerdo</option><option>Direito</option></select></div>
+            <div class="fld full"><label for="dp-o">Observação (opcional)</label><input class="ctl" id="dp-o" type="text" maxlength="140" placeholder="ex.: depois do almoço, em repouso"></div>
+            <p class="msg full" id="dp-msg" role="status" style="grid-column:1/-1"></p>
+            <div class="full" style="grid-column:1/-1"><button class="btn wide" type="submit">Adicionar registro</button></div>
+            </div>
+          </fieldset>
+        </form>
+        <div class="howto">
+          <h3>Como medir em casa</h3>
+          <ol>
+            <li>Sente-se e descanse 5 minutos, em silêncio, antes de medir.</li>
+            <li>Costas apoiadas, pés no chão e pernas sem cruzar.</li>
+            <li>Braço apoiado, na altura do coração.</li>
+            <li>Esvazie a bexiga antes.</li>
+            <li>Nada de café, cigarro ou exercício nos 30 minutos anteriores.</li>
+            <li>Não converse durante a medida.</li>
+            <li>Faça 2 medidas, com 1 minuto de intervalo, e anote as duas.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="dp-print">
+        <div class="pr-head print-only">
+          <h2>Diário de pressão arterial</h2>
+          <p>Paciente: ______________________________ · Impresso em <span id="dp-hoje"></span></p>
+          <p>Médico: Dr. Guilherme H. F. de Oliveira · Cardiologista · CRM-MG 48540</p>
+        </div>
+        <div class="dp-stats" id="dp-stats" aria-live="polite"></div>
+        <figure class="dp-chart" id="dp-chart" style="margin-inline:0" hidden>
+          <div id="dp-svg"></div>
+          <div class="dp-leg"><span><i class="a" aria-hidden="true"></i>Sistólica (máxima)</span><span><i class="b" aria-hidden="true"></i>Diastólica (mínima)</span><span id="dp-chart-n"></span></div>
+        </figure>
+        <ol class="dp-list" id="dp-list" aria-label="Registros de pressão, do mais recente ao mais antigo"></ol>
+        <p class="dp-note">Leve estes registros para a consulta; quem interpreta é o médico. As medidas não são classificadas aqui.</p>
+        <p class="print-only" style="margin-top:.8rem;font-size:9pt">Registros feitos pelo próprio paciente em aparelho de uso doméstico. Não substituem a avaliação médica.</p>
+        <div class="dp-actions no-print">
+          <button type="button" class="btn ghost" id="dp-print-btn">Imprimir ou salvar em PDF</button>
+          <button type="button" class="btn ghost" id="dp-clear-btn">Apagar tudo</button>
+        </div>
+        <div class="confirm no-print" id="dp-confirm" hidden role="alertdialog" aria-labelledby="dp-confirm-t">
+          <p id="dp-confirm-t">Apagar todos os registros deste aparelho? Isso não pode ser desfeito.</p>
+          <div class="row"><button type="button" class="btn small" id="dp-clear-yes">Sim, apagar tudo</button><button type="button" class="btn small ghost" id="dp-clear-no">Cancelar</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 FICHA PRÉ-CONSULTA -->
+<section id="consulta" class="sec dark" aria-labelledby="t-consulta">
+  <div class="wrap">
+    <div class="sec-head no-print"><span class="n" aria-hidden="true">08</span><span class="rule" aria-hidden="true"></span><span class="label">Ficha pré-consulta</span></div>
+    <h2 id="t-consulta" class="no-print">Prepare a sua <em>consulta</em>.</h2>
+    <p class="lead no-print">Marque o que vai levar e anote o que quer conversar. Gere um resumo para imprimir ou salvar em PDF. Nada é enviado para servidor e os dados ficam só neste aparelho.</p>
+    <p class="lead no-print">Por serem informações de saúde, a ficha não tem envio por WhatsApp: imprima o resumo ou mostre-o no celular durante a consulta.</p>
+
+    <div class="fc-grid">
+      <div class="no-print">
+        <form class="fc-form" id="fc-form" novalidate>
+          <fieldset>
+            <legend class="step-lg"><span class="stp" aria-hidden="true">1</span>O que levar</legend>
+            <label class="chk"><input type="checkbox" data-lv="Documento com foto"><span>Documento com foto</span></label>
+            <label class="chk"><input type="checkbox" data-lv="Exames anteriores (laudos e imagens)"><span>Exames anteriores (laudos e imagens)</span></label>
+            <label class="chk"><input type="checkbox" data-lv="Lista dos remédios em uso, com nome e dose"><span>Lista dos remédios em uso, com nome e dose</span></label>
+            <label class="chk"><input type="checkbox" data-lv="Relatórios e receitas de outros médicos"><span>Relatórios e receitas de outros médicos</span></label>
+            <label class="chk"><input type="checkbox" data-lv="Diário da pressão arterial (impresso ou no celular)"><span>Diário da pressão arterial (impresso ou no celular)</span></label>
+          </fieldset>
+          <fieldset>
+            <legend class="step-lg"><span class="stp" aria-hidden="true">2</span>Para conversar com o médico</legend>
+            <div class="fc-form">
+            <div class="fld"><label for="fc-nome">Seu nome</label><input class="ctl" id="fc-nome" type="text" autocomplete="name" maxlength="80"></div>
+            <div class="fld"><label for="fc-motivo">Motivo da consulta</label><textarea class="ctl" id="fc-motivo" maxlength="600"></textarea></div>
+            <div class="fld"><label for="fc-sint">Sintomas e desde quando</label><textarea class="ctl" id="fc-sint" maxlength="800"></textarea></div>
+            <div class="fld"><label for="fc-rem">Remédios em uso (nome e dose)</label><textarea class="ctl" id="fc-rem" maxlength="800" placeholder="Um por linha"></textarea></div>
+            <div class="fld"><label for="fc-alerg">Alergias</label><textarea class="ctl" id="fc-alerg" maxlength="400"></textarea></div>
+            <div class="fld"><label for="fc-fam">Histórico familiar de problemas do coração</label><textarea class="ctl" id="fc-fam" maxlength="600"></textarea></div>
+            <div class="fld"><label for="fc-duv">Dúvidas para o médico</label><textarea class="ctl" id="fc-duv" maxlength="800"></textarea></div>
+            </div>
+          </fieldset>
+          <p class="hint" id="fc-ls-note">Ao digitar, o rascunho fica guardado só neste aparelho. Em aparelho de uso compartilhado, use &ldquo;Limpar ficha&rdquo; ao terminar.</p>
+          <div class="fc-actions">
+            <button type="submit" class="btn">Gerar resumo</button>
+            <button type="button" class="btn ghost" id="fc-clear">Limpar ficha</button>
+          </div>
+        </form>
+      </div>
+      <div class="fc-out" id="fc-out" aria-live="polite">
+        <div class="fc-hint no-print" id="fc-hint">O resumo aparece aqui depois de &ldquo;Gerar resumo&rdquo;. Você poderá imprimir ou salvar em PDF.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 PARA LER ANTES DA CONSULTA -->
+<section id="leitura" class="sec wine" aria-labelledby="t-leitura">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">09</span><span class="rule" aria-hidden="true"></span><span class="label">Para ler antes da consulta</span></div>
+    <h2 id="t-leitura">Informação <em>simples</em>, sem pressa.</h2>
+    <p class="lead">Textos curtos e gerais para chegar à consulta com as dúvidas organizadas.</p>
+    <div class="cards">
+      <article class="card">
+        <span class="label">Pressão arterial</span>
+        <h3>Como medir a pressão em casa</h3>
+        <p>O valor depende muito das condições da medida. Descanse sentado por 5 minutos, com as costas apoiadas e o braço na altura do coração, e evite café, cigarro e exercício nos 30 minutos anteriores. Faça duas medidas, com 1 minuto de intervalo.</p>
+        <p>Anotar os valores com data e hora ajuda o médico a ver o conjunto, e não só uma medida isolada.</p>
+        <a class="link" href="#diario">Registrar no diário</a>
+        <p class="foot">Conteúdo informativo; não substitui a consulta.</p>
+      </article>
+      <article class="card">
+        <span class="label">Ritmo do coração</span>
+        <h3>Palpitações: quando vale marcar consulta</h3>
+        <p>Palpitação é a sensação de batimentos fortes, rápidos ou irregulares. Pode ter várias causas, como cafeína, noites mal dormidas, ansiedade ou febre. Vale marcar consulta quando os episódios se repetem, duram mais que o habitual ou incomodam no dia a dia.</p>
+        <p class="urg">Palpitação com dor no peito, falta de ar ou desmaio não deve esperar consulta: ligue 192 (SAMU) ou procure o pronto-socorro.</p>
+        <p class="foot">Conteúdo informativo; não substitui a consulta.</p>
+      </article>
+      <article class="card">
+        <span class="label">Prevenção</span>
+        <h3>Check-up do coração: o que costuma envolver</h3>
+        <p>Em geral começa com uma conversa sobre a sua história, os hábitos e os remédios em uso, seguida de exame físico e medida da pressão. Exames, como eletrocardiograma ou exames de sangue, são pedidos conforme a necessidade de cada pessoa, e o médico define cada quanto tempo repetir.</p>
+        <a class="link" href="#consulta">Preparar a ficha da consulta</a>
+        <p class="foot">Conteúdo informativo; não substitui a consulta.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 10 FAQ -->
+<section id="faq" class="sec dark" aria-labelledby="t-faq">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">10</span><span class="rule" aria-hidden="true"></span><span class="label">Perguntas frequentes</span></div>
+    <h2 id="t-faq">Antes de <em>agendar</em>.</h2>
+    <div class="faq">
+      <details>
+        <summary>Como agendar uma consulta?</summary>
+        <div class="ans"><p>O agendamento é feito pelo WhatsApp. Envie uma mensagem pelo botão desta página, ou use a agenda online para montar um pedido de horário: o consultório confirma a data e informa os horários disponíveis.</p></div>
+      </details>
+      <details>
+        <summary>O consultório aceita convênio?</summary>
+        <div class="ans"><p>O atendimento no consultório é particular.</p><p><span class="ph">[PREENCHER: confirmar convênios e emissão de recibo para reembolso]</span></p></div>
+      </details>
+      <details>
+        <summary>Há teleconsulta?</summary>
+        <div class="ans"><p><span class="ph">[PREENCHER: confirmar se oferece teleconsulta]</span></p></div>
+      </details>
+      <details>
+        <summary>O que levar para a consulta?</summary>
+        <div class="ans"><p>Leve um documento com foto, exames anteriores (laudos e imagens, se tiver) e a lista dos medicamentos que usa, com nome e dose. Anotar dúvidas e sintomas antes ajuda a conversa.</p></div>
+      </details>
+      <details>
+        <summary>Quando consultar um cardiologista?</summary>
+        <div class="ans"><p>Em consultas de rotina e de prevenção, e quando houver pressão alta, colesterol ou glicemia alterados, histórico de doença cardíaca na família, ou sintomas como cansaço fora do comum, palpitações, tontura ou desconforto no peito. Também antes de começar atividade física intensa ou de um procedimento programado. Dor no peito intensa ou súbita não deve esperar consulta: veja a orientação de emergência abaixo.</p></div>
+      </details>
+      <details>
+        <summary>E em caso de emergência?</summary>
+        <div class="ans"><p class="urg">Em caso de emergência, vá ao pronto-socorro mais próximo ou ligue 192 (SAMU). O WhatsApp do consultório não é canal de urgência.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 11 CONTATO -->
+<section id="contato" class="sec wine" aria-labelledby="t-contato">
+  <div class="wrap">
+    <div class="sec-head"><span class="n" aria-hidden="true">11</span><span class="rule" aria-hidden="true"></span><span class="label">Contato</span></div>
+    <div class="contact">
+      <div>
+        <h2 id="t-contato">Vamos <em>conversar</em>.</h2>
+        <p class="lead">A forma mais direta de marcar uma consulta é o WhatsApp.</p>
+        <p style="margin-top:1.8rem"><a class="btn" href="https://wa.me/PREENCHER_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Guilherme." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.46 15.04L2 22l5.1-1.55A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.96l-.3-.19-3 .91.93-2.93-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 4.1c-.17 0-.45.06-.69.32-.24.26-.9.88-.9 2.15s.92 2.5 1.05 2.67c.13.17 1.8 2.86 4.4 3.9 2.17.86 2.6.69 3.07.65.47-.04 1.5-.61 1.71-1.2.21-.6.21-1.1.15-1.2-.06-.11-.23-.17-.49-.3-.26-.13-1.5-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.3.19-.56.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.28-1.52-1.43-1.77-.15-.26-.02-.4.11-.52.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.08-.17.04-.32-.02-.45-.06-.13-.57-1.4-.78-1.9-.2-.5-.42-.43-.57-.44h-.49Z"/></svg>
+          Agendar consulta pelo WhatsApp</a></p>
+        <div class="emerg"><b>Emergência</b>Em caso de emergência, vá ao pronto-socorro mais próximo ou ligue 192 (SAMU). Este contato não atende urgências.</div>
+      </div>
+      <ul>
+        <li><span class="k">WhatsApp</span><span class="ph">[PREENCHER: número de WhatsApp exibido]</span></li>
+        <li><span class="k">Telefone</span><span class="ph">[PREENCHER: telefone fixo, se houver]</span></li>
+        <li><span class="k">E-mail</span><span class="ph">[PREENCHER: e-mail de contato]</span></li>
+        <li><span class="k">Instagram e redes</span><span class="ph">[PREENCHER: Instagram e outras redes]</span></li>
+        <li><span class="k">Endereço</span><span>Rua Maria Matos, 471, Sala 01<br>Centro, Coronel Fabriciano – MG · CEP 35170-111</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="name" style="margin:0">Dr. Guilherme Henrique Figueiredo de Oliveira</p>
+    <p class="reg-line">Dr. Guilherme Henrique Figueiredo de Oliveira · Médico Cardiologista · CRM-MG 48540 · RQE 40142 (Cardiologia)</p>
+    <hr>
+    <p>Rua Maria Matos, 471, Sala 01, Centro, Coronel Fabriciano – MG, CEP 35170-111</p>
+    <p>Diretor técnico: <span class="ph">[PREENCHER — exigido se o consultório for divulgado como estabelecimento]</span></p>
+    <p>Conteúdo de caráter informativo; não substitui a consulta médica.</p>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/PREENCHER_WHATSAPP?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Guilherme." target="_blank" rel="noopener" aria-label="Agendar consulta pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.46 15.04L2 22l5.1-1.55A9.9 9.9 0 1 0 12.04 2Zm0 1.8a8.1 8.1 0 1 1-4.3 14.96l-.3-.19-3 .91.93-2.93-.2-.31A8.1 8.1 0 0 1 12.04 3.8Zm-3.2 4.1c-.17 0-.45.06-.69.32-.24.26-.9.88-.9 2.15s.92 2.5 1.05 2.67c.13.17 1.8 2.86 4.4 3.9 2.17.86 2.6.69 3.07.65.47-.04 1.5-.61 1.71-1.2.21-.6.21-1.1.15-1.2-.06-.11-.23-.17-.49-.3-.26-.13-1.5-.74-1.74-.83-.23-.08-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.3.19-.56.06-.26-.13-1.08-.4-2.06-1.27-.76-.68-1.28-1.52-1.43-1.77-.15-.26-.02-.4.11-.52.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.08-.17.04-.32-.02-.45-.06-.13-.57-1.4-.78-1.9-.2-.5-.42-.43-.57-.44h-.49Z"/></svg>
+  Agendar
+</a>
+
+<script>
+(function(){
+  var d=document,w=window;
+  var CFG={
+    header:'.top',
+    hero:'.hero',
+    heroCta:'.hero .actions .btn',
+    reveal:'.hero .meta, .hero h1 .dr, .hero h1 .rest, .hero .foot > div > *, .sec-head, .sec h2, #sobre .photo, #sobre .lead, .creds > div, #servicos .lead, .note, .svc li, .place, .hours, .conv .big, .conv .box, .faq details, .contact .lead, .contact .btn, .emerg, .contact li, #agenda .lead, .ag-col > *, #preparo .lead, #diario .lead, .priv, .dp-grid > *, #consulta .lead, .fc-grid > *, #leitura .lead, .card',
+    parallax:[['.hero .ecg',.3],['.hero h1',-.06]],
+    lenis:'https://unpkg.com/lenis@1.3.4/dist/lenis.min.js'
+  };
+  var reduce=w.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasIO='IntersectionObserver' in w;
+  var hero=d.querySelector(CFG.hero), header=d.querySelector(CFG.header);
+
+  /* 1. Scroll-reveal com stagger (desligado em reduced-motion e em navegadores automatizados) */
+  if(!reduce&&!navigator.webdriver&&hasIO){
+    var show=function(el,i){
+      el.style.setProperty('--d',Math.min(i,6)*90+'ms');
+      el.classList.add('in');
+      setTimeout(function(){el.classList.remove('reveal','in');el.style.removeProperty('--d')},2000);
+    };
+    var io=new IntersectionObserver(function(entries){
+      var i=0;
+      entries.filter(function(e){return e.isIntersecting})
+        .sort(function(a,b){return a.target.compareDocumentPosition(b.target)&4?-1:1})
+        .forEach(function(e){io.unobserve(e.target);show(e.target,i++)});
+    },{rootMargin:'0px 0px -8% 0px'});
+    [].forEach.call(d.querySelectorAll(CFG.reveal),function(el){el.classList.add('reveal');io.observe(el)});
+  }
+  w.__revealOn=true;
+
+  /* 2. Parallax no hero + pausa do ECG fora da tela */
+  var heroOn=true;
+  if(hero&&hasIO){
+    new IntersectionObserver(function(e){heroOn=e[0].isIntersecting;hero.classList.toggle('is-off',!heroOn)}).observe(hero);
+  }
+  if(hero&&!reduce){
+    var layers=CFG.parallax.map(function(p){return [d.querySelector(p[0]),p[1]]}).filter(function(p){return p[0]});
+    var ticking=false;
+    var paint=function(){
+      ticking=false; if(!heroOn) return;
+      var y=w.scrollY;
+      layers.forEach(function(p){p[0].style.translate='0 '+(y*p[1]).toFixed(1)+'px'});
+    };
+    w.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(paint)}},{passive:true});
+    paint();
+  }
+
+  /* 3. WhatsApp fixo: esconde enquanto o CTA do hero está visível */
+  var fab=d.querySelector('.fab'), cta=d.querySelector(CFG.heroCta);
+  if(fab&&cta&&hasIO){
+    new IntersectionObserver(function(e){
+      var hide=e[0].isIntersecting;
+      fab.classList.toggle('is-hidden',hide); fab.inert=hide;
+    }).observe(cta);
+  }
+
+  /* 4. Lenis: só com mouse/trackpad e sem reduced-motion; se o CDN falhar, fica a rolagem nativa */
+  if(!reduce&&w.matchMedia('(hover: hover) and (pointer: fine)').matches){
+    var s=d.createElement('script');
+    s.src=CFG.lenis; s.async=true;
+    s.onload=function(){
+      if(!w.Lenis) return;
+      var lenis=new w.Lenis({lerp:.09});
+      w.__lenis=lenis;
+      requestAnimationFrame(function raf(t){lenis.raf(t);requestAnimationFrame(raf)});
+    };
+    d.head.appendChild(s);
+    d.addEventListener('click',function(e){
+      if(!w.__lenis||e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey) return;
+      var a=e.target.closest('a[href^="#"]'); if(!a) return;
+      var id=a.getAttribute('href'); if(id.length<2) return;
+      var t=d.getElementById(decodeURIComponent(id.slice(1))); if(!t) return;
+      e.preventDefault();
+      w.__lenis.scrollTo(t,{offset:-((header?header.offsetHeight:0)+8)});
+      history.pushState(null,'',id);
+      if(!t.hasAttribute('tabindex')) t.setAttribute('tabindex','-1');
+      t.focus({preventScroll:true});
+    });
+  }
+})();
+</script>
+
+<script>
+/* Extras da versão completa: agenda (pedido por WhatsApp), diário da pressão e ficha pré-consulta.
+   Tudo roda no aparelho; nenhum dado é enviado a servidor. */
+(function(){
+  'use strict';
+  var d=document,w=window;
+  var reduce=!!(w.matchMedia&&w.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var WA='https://wa.me/PREENCHER_WHATSAPP';
+  var DIAS=['domingo','segunda-feira','terça-feira','quarta-feira','quinta-feira','sexta-feira','sábado'];
+  var MESES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  function $(id){return d.getElementById(id)}
+  function pad(n){return (n<10?'0':'')+n}
+  function el(tag,cls,txt){var e=d.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e}
+  function joinPt(a){return a.length<2?a.join(''):a.slice(0,-1).join(', ')+' e '+a[a.length-1]}
+  function ptDate(dt){return DIAS[dt.getDay()]+', '+dt.getDate()+' de '+MESES[dt.getMonth()]+' de '+dt.getFullYear()}
+  function ptShort(dt){return pad(dt.getDate())+'/'+pad(dt.getMonth()+1)+'/'+dt.getFullYear()}
+  function scrollTo(node){if(node&&node.scrollIntoView)node.scrollIntoView({behavior:reduce?'auto':'smooth',block:'nearest'})}
+
+  /* armazenamento local com try/catch e cópia em memória: sem localStorage a página continua funcionando */
+  var mem={}, lsOk=true;
+  try{w.localStorage.setItem('__t','1');w.localStorage.removeItem('__t')}catch(e){lsOk=false}
+  function lsGet(k){if(lsOk){try{return w.localStorage.getItem(k)}catch(e){lsOk=false}}return mem.hasOwnProperty(k)?mem[k]:null}
+  function lsSet(k,v){mem[k]=v;if(lsOk){try{w.localStorage.setItem(k,v)}catch(e){lsOk=false}}}
+  function lsDel(k){delete mem[k];if(lsOk){try{w.localStorage.removeItem(k)}catch(e){lsOk=false}}}
+
+  /* impressão: CSS @media print mostra só a seção marcada em body[data-print] */
+  function doPrint(kind){
+    d.body.setAttribute('data-print',kind);
+    var done=function(){d.body.removeAttribute('data-print');w.removeEventListener('afterprint',done)};
+    w.addEventListener('afterprint',done);
+    try{w.print()}catch(e){done()}
+  }
+
+  /* =============== AGENDA =============== */
+  (function(){
+    var form=$('ag'); if(!form) return;
+    var CFG={dias:[1,3,5],janela:30,
+      manha:['08:00','08:30','09:00','09:30','10:00','10:30','11:00','11:30'],
+      tarde:['14:00','14:30','15:00','15:30','16:00','16:30','17:00','17:30'],
+      local:'Rua Maria Matos, 471, Sala 01, Centro, Coronel Fabriciano - MG'};
+    var st={tipo:'',exame:'',date:null,slot:'',nome:'',alt:''};
+    var t0=new Date(); var today=new Date(t0.getFullYear(),t0.getMonth(),t0.getDate());
+    var start=new Date(today.getFullYear(),today.getMonth(),today.getDate()+1);
+    var end=new Date(today.getFullYear(),today.getMonth(),today.getDate()+CFG.janela);
+    var first={y:today.getFullYear(),m:today.getMonth()}, last={y:end.getFullYear(),m:end.getMonth()};
+    var view={y:first.y,m:first.m};
+    var daysEl=$('cal-days'), titleEl=$('cal-title'), prev=$('cal-prev'), next=$('cal-next');
+    var slotsEl=$('ag-slots'), hint=$('ag-slots-hint'), send=$('ag-send'), ics=$('ag-ics'), msg=$('ag-msg'), resumo=$('ag-resumo');
+    var dayBtns=[], slotBtns=[];
+
+    function avail(dt){return dt>=start&&dt<=end&&CFG.dias.indexOf(dt.getDay())>-1}
+    function sameDay(a,b){return a&&b&&a.getTime()===b.getTime()}
+    function idx(v){return v.y*12+v.m}
+
+    function renderCal(){
+      daysEl.textContent=''; dayBtns=[];
+      titleEl.textContent=MESES[view.m]+' de '+view.y;
+      var firstDow=new Date(view.y,view.m,1).getDay();
+      var n=new Date(view.y,view.m+1,0).getDate();
+      for(var i=0;i<firstDow;i++){daysEl.appendChild(el('span'))}
+      for(var day=1;day<=n;day++){
+        var dt=new Date(view.y,view.m,day);
+        var b=el('button',null,String(day)); b.type='button';
+        b.setAttribute('aria-label',ptDate(dt)+(avail(dt)?'':', indisponível'));
+        if(!avail(dt)) b.disabled=true;
+        b.setAttribute('aria-pressed',sameDay(dt,st.date)?'true':'false');
+        b._dt=dt; dayBtns.push(b); daysEl.appendChild(b);
+      }
+      prev.disabled=idx(view)<=idx(first); next.disabled=idx(view)>=idx(last);
+    }
+    function renderSlots(){
+      slotsEl.textContent=''; slotBtns=[];
+      [['Manhã',CFG.manha],['Tarde',CFG.tarde]].forEach(function(g){
+        slotsEl.appendChild(el('p','sl-h',g[0]));
+        var box=el('div','slots');
+        g[1].forEach(function(t){
+          var b=el('button',null,t); b.type='button';
+          b.setAttribute('aria-pressed',st.slot===t?'true':'false');
+          b.setAttribute('aria-label','Horário de exemplo '+t);
+          slotBtns.push(b); box.appendChild(b);
+        });
+        slotsEl.appendChild(box);
+      });
+    }
+    function pickDate(dt){
+      st.date=dt;
+      dayBtns.forEach(function(b){b.setAttribute('aria-pressed',sameDay(b._dt,dt)?'true':'false')});
+      if(slotsEl.hidden){renderSlots();slotsEl.hidden=false}
+      hint.textContent='Horários de exemplo para '+ptDate(dt)+'.';
+      update();
+    }
+    function pickSlot(t){
+      st.slot=t;
+      slotBtns.forEach(function(b){b.setAttribute('aria-pressed',b.textContent===t?'true':'false')});
+      update();
+    }
+    function tipoTxt(){return st.tipo==='Exame'?(st.exame?'Exame: '+st.exame:'Exame'):st.tipo}
+    function missing(){
+      var m=[];
+      if(!st.tipo) m.push('o tipo de atendimento');
+      else if(st.tipo==='Exame'&&!st.exame) m.push('o exame');
+      if(!st.date) m.push('o dia');
+      if(!st.slot) m.push('o horário');
+      if(!st.nome) m.push('o seu nome');
+      return m;
+    }
+    function message(){
+      var l=['Olá! Gostaria de pedir um horário com o Dr. Guilherme.','',
+        'Atendimento: '+tipoTxt(),'Data: '+ptDate(st.date),'Horário: '+st.slot,'Nome: '+st.nome];
+      if(st.alt) l.push('Se não houver esse horário: '+st.alt);
+      l.push('','Entendo que é apenas um pedido, sujeito à confirmação do consultório.');
+      return l.join('\n');
+    }
+    function setBtn(b,on){b.classList.toggle('is-off',!on);b.setAttribute('aria-disabled',on?'false':'true')}
+    function update(){
+      var m=missing(), parts=[];
+      if(st.tipo) parts.push(tipoTxt());
+      if(st.date) parts.push(ptDate(st.date));
+      if(st.slot) parts.push(st.slot);
+      if(st.nome) parts.push(st.nome);
+      var txt=parts.join(' · ');
+      if(m.length) txt=(txt?txt+'. ':'')+'Falta escolher '+joinPt(m)+'.';
+      resumo.textContent=txt||'Escolha o tipo, o dia e o horário.';
+      var ok=!m.length;
+      setBtn(send,ok); setBtn(ics,ok);
+      send.href=ok?WA+'?text='+encodeURIComponent(message()):'#agenda';
+      if(ok) msg.textContent='';
+    }
+    function icsEsc(t){return String(t).replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r?\n/g,'\\n')}
+    function icsDate(dt,hm){return dt.getFullYear()+pad(dt.getMonth()+1)+pad(dt.getDate())+'T'+pad(hm[0])+pad(hm[1])+'00'}
+    function buildIcs(){
+      var hm=st.slot.split(':').map(Number);
+      var endMin=hm[0]*60+hm[1]+30, hm2=[Math.floor(endMin/60),endMin%60];
+      var n=new Date(), stamp=n.getUTCFullYear()+pad(n.getUTCMonth()+1)+pad(n.getUTCDate())+'T'+pad(n.getUTCHours())+pad(n.getUTCMinutes())+pad(n.getUTCSeconds())+'Z';
+      return ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Dr. Guilherme//Pedido de horario//PT-BR','CALSCALE:GREGORIAN','BEGIN:VEVENT',
+        'UID:pedido-'+n.getTime()+'@dr-guilherme',
+        'DTSTAMP:'+stamp,'DTSTART:'+icsDate(st.date,hm),'DTEND:'+icsDate(st.date,hm2),
+        'SUMMARY:'+icsEsc(tipoTxt()+' com o Dr. Guilherme (a confirmar)'),
+        'LOCATION:'+icsEsc(CFG.local),
+        'DESCRIPTION:'+icsEsc('Pedido de horário enviado pelo WhatsApp. Ainda não confirmado: aguarde a resposta do consultório.'),
+        'STATUS:TENTATIVE','END:VEVENT','END:VCALENDAR'].join('\r\n')+'\r\n';
+    }
+
+    daysEl.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('button');if(b&&!b.disabled&&b._dt)pickDate(b._dt)});
+    slotsEl.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('button');if(b)pickSlot(b.textContent)});
+    prev.addEventListener('click',function(){view.m--;if(view.m<0){view.m=11;view.y--}renderCal();if(prev.disabled)next.focus()});
+    next.addEventListener('click',function(){view.m++;if(view.m>11){view.m=0;view.y++}renderCal();if(next.disabled)prev.focus()});
+    form.addEventListener('change',function(e){
+      var t=e.target;
+      if(t.name==='ag-tipo'){st.tipo=t.value;$('ag-exame-w').hidden=t.value!=='Exame';if(t.value!=='Exame')st.exame=''}
+      else if(t.id==='ag-exame') st.exame=t.value;
+      else if(t.id==='ag-alt') st.alt=t.value;
+      update();
+    });
+    $('ag-nome').addEventListener('input',function(e){st.nome=e.target.value.replace(/\s+/g,' ').trim();update()});
+    form.addEventListener('submit',function(e){e.preventDefault()});
+    send.addEventListener('click',function(e){
+      if(send.getAttribute('aria-disabled')==='true'){
+        e.preventDefault(); var m=missing();
+        msg.textContent='Para enviar o pedido, falta escolher '+joinPt(m)+'.'; msg.classList.remove('ok');
+      } else { msg.textContent='Abrindo o WhatsApp. Lembre-se: é um pedido; o consultório confirma o horário.'; msg.classList.add('ok'); }
+    });
+    ics.addEventListener('click',function(){
+      if(ics.getAttribute('aria-disabled')==='true'){
+        msg.textContent='Para gerar o lembrete, falta escolher '+joinPt(missing())+'.'; msg.classList.remove('ok'); return;
+      }
+      try{
+        var blob=new Blob([buildIcs()],{type:'text/calendar;charset=utf-8'});
+        var url=w.URL.createObjectURL(blob), a=d.createElement('a');
+        a.href=url; a.download='lembrete-consulta.ics'; d.body.appendChild(a); a.click(); d.body.removeChild(a);
+        setTimeout(function(){w.URL.revokeObjectURL(url)},4000);
+        msg.textContent='Lembrete gerado, marcado como “a confirmar”. Abra o arquivo para adicionar ao calendário.'; msg.classList.add('ok');
+      }catch(err){ msg.textContent='Não foi possível gerar o lembrete neste navegador.'; msg.classList.remove('ok'); }
+    });
+
+    renderCal(); update();
+  })();
+
+  /* =============== DIÁRIO DA PRESSÃO =============== */
+  var dpRows=[];
+  var dpRender=function(){};
+  (function(){
+    var form=$('dp-form'); if(!form) return;
+    var KEY='dg_pressao_v1';
+    var fT=$('dp-t'), fS=$('dp-s'), fD=$('dp-d'), fP=$('dp-p'), fB=$('dp-b'), fO=$('dp-o'), msg=$('dp-msg');
+    var statsEl=$('dp-stats'), chartEl=$('dp-chart'), svgEl=$('dp-svg'), listEl=$('dp-list'), confirmEl=$('dp-confirm');
+    var rows=dpRows;
+
+    function validRow(r){return r&&typeof r.id==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(r.t)&&isFinite(r.s)&&isFinite(r.d)}
+    function load(){
+      var raw=lsGet(KEY), arr=[];
+      try{arr=raw?JSON.parse(raw):[]}catch(e){arr=[]}
+      if(!Array.isArray(arr)) arr=[];
+      rows.length=0; arr.filter(validRow).forEach(function(r){rows.push(r)});
+    }
+    function save(){lsSet(KEY,JSON.stringify(rows))}
+    function nowLocal(){var n=new Date();return n.getFullYear()+'-'+pad(n.getMonth()+1)+'-'+pad(n.getDate())+'T'+pad(n.getHours())+':'+pad(n.getMinutes())}
+    function fmt(t){return t.slice(8,10)+'/'+t.slice(5,7)+'/'+t.slice(0,4)+' · '+t.slice(11,16)}
+    function fmtShort(t){return t.slice(8,10)+'/'+t.slice(5,7)}
+    function sorted(){return rows.slice().sort(function(a,b){return a.t<b.t?-1:a.t>b.t?1:0})}
+    function avg(a){var s=0;a.forEach(function(v){s+=v});return Math.round(s/a.length)}
+    function stat(k,v,small){
+      var c=el('div'); c.appendChild(el('span','k',k));
+      var s=el('span','v',v); if(small) s.appendChild(el('small',null,' '+small));
+      c.appendChild(s); return c;
+    }
+
+    function renderStats(asc){
+      statsEl.textContent='';
+      if(!asc.length){statsEl.hidden=true;return}
+      statsEl.hidden=false;
+      var sy=asc.map(function(r){return r.s}), di=asc.map(function(r){return r.d});
+      var pu=asc.filter(function(r){return r.p!=null}).map(function(r){return r.p});
+      var m=stat('Média das medidas',avg(sy)+' / '+avg(di),'mmHg'); m.className='w';
+      statsEl.appendChild(m);
+      statsEl.appendChild(stat('Medidas',String(asc.length)));
+      if(pu.length) statsEl.appendChild(stat('Pulso médio',String(avg(pu)),'bpm'));
+    }
+
+    function renderChart(asc){
+      var pts=asc.slice(-14);
+      if(!pts.length){chartEl.hidden=true;svgEl.textContent='';return}
+      chartEl.hidden=false;
+      var W=Math.max(260,Math.round(svgEl.clientWidth||chartEl.clientWidth||320)), H=210;
+      var L=34,R=12,T=12,B=28, iw=W-L-R, ih=H-T-B, n=pts.length;
+      var vals=[]; pts.forEach(function(r){vals.push(r.s,r.d)});
+      var lo=Math.floor((Math.min.apply(null,vals)-10)/10)*10, hi=Math.ceil((Math.max.apply(null,vals)+10)/10)*10;
+      var rg=hi-lo, step=rg<=60?10:rg<=120?20:rg<=240?40:50;
+      var X=function(i){return n===1?L+iw/2:L+i*iw/(n-1)};
+      var Y=function(v){return T+ih-(v-lo)/(hi-lo)*ih};
+      var g='';
+      for(var v=Math.ceil(lo/step)*step;v<=hi;v+=step){
+        g+='<line class="ax" x1="'+L+'" x2="'+(W-R)+'" y1="'+Y(v).toFixed(1)+'" y2="'+Y(v).toFixed(1)+'"/>'+
+           '<text class="tx" x="'+(L-6)+'" y="'+(Y(v)+3.5).toFixed(1)+'" text-anchor="end">'+v+'</text>';
+      }
+      var maxLab=Math.max(2,Math.floor(iw/54)+1), ls=n>1?Math.ceil((n-1)/(maxLab-1)):1;
+      pts.forEach(function(r,i){
+        if(i%ls===0) g+='<text class="tx" x="'+X(i).toFixed(1)+'" y="'+(H-8)+'" text-anchor="middle">'+fmtShort(r.t)+'</text>';
+      });
+      var ps=pts.map(function(r,i){return X(i).toFixed(1)+','+Y(r.s).toFixed(1)}).join(' ');
+      var pd=pts.map(function(r,i){return X(i).toFixed(1)+','+Y(r.d).toFixed(1)}).join(' ');
+      if(n>1) g+='<polyline class="ls" points="'+ps+'"/><polyline class="ld" points="'+pd+'"/>';
+      pts.forEach(function(r,i){
+        g+='<circle class="ps" cx="'+X(i).toFixed(1)+'" cy="'+Y(r.s).toFixed(1)+'" r="4"/>'+
+           '<circle class="pd" cx="'+X(i).toFixed(1)+'" cy="'+Y(r.d).toFixed(1)+'" r="3.6"/>';
+      });
+      svgEl.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" role="img" aria-label="Gráfico com as últimas '+n+' medidas de pressão arterial, da mais antiga à mais recente. Os valores também estão na lista abaixo.">'+g+'</svg>';
+      $('dp-chart-n').textContent='Últimas '+n+' medidas, em mmHg';
+    }
+
+    function renderList(asc){
+      listEl.textContent='';
+      if(!asc.length){
+        var e=el('li','dp-empty','Nenhum registro ainda. Adicione a primeira medida no formulário.');
+        listEl.appendChild(e); return;
+      }
+      asc.slice().reverse().forEach(function(r){
+        var li=el('li','dp-row');
+        li.appendChild(el('div','dp-when',fmt(r.t)));
+        var v=el('div','dp-val',r.s+' / '+r.d+' '); v.appendChild(el('small',null,'mmHg')); li.appendChild(v);
+        var sub=[]; if(r.p!=null) sub.push('Pulso '+r.p+' bpm'); if(r.b) sub.push('braço '+r.b.toLowerCase());
+        if(sub.length) li.appendChild(el('div','dp-sub',sub.join(' · ')));
+        if(r.o) li.appendChild(el('div','dp-obs',r.o));
+        var b=el('button','dp-del no-print','Remover'); b.type='button'; b.setAttribute('data-id',r.id);
+        b.setAttribute('aria-label','Remover o registro de '+fmt(r.t));
+        li.appendChild(b); listEl.appendChild(li);
+      });
+    }
+    dpRender=function(){var asc=sorted();renderStats(asc);renderChart(asc);renderList(asc)};
+
+    function say(t,ok){msg.textContent=t;msg.classList.toggle('ok',!!ok)}
+    function bad(f,t){f.setAttribute('aria-invalid','true');say(t,false);f.focus()}
+    function intOrNull(v){v=String(v).trim();if(v==='')return null;var n=Number(v);return isFinite(n)&&Math.floor(n)===n?n:NaN}
+    [fS,fD,fP,fT].forEach(function(f){f.addEventListener('input',function(){f.removeAttribute('aria-invalid')})});
+
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      [fS,fD,fP,fT].forEach(function(f){f.removeAttribute('aria-invalid')});
+      var s=intOrNull(fS.value), di=intOrNull(fD.value), p=intOrNull(fP.value), t=fT.value;
+      if(!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(t)) return bad(fT,'Informe a data e a hora da medida.');
+      if(s===null||isNaN(s)||s<40||s>300) return bad(fS,'Informe a sistólica (a maior), com número entre 40 e 300.');
+      if(di===null||isNaN(di)||di<20||di>200) return bad(fD,'Informe a diastólica (a menor), com número entre 20 e 200.');
+      if(s<=di) return bad(fS,'A sistólica (a maior) precisa ser maior que a diastólica. Confira os números.');
+      if(p!==null&&(isNaN(p)||p<20||p>250)) return bad(fP,'O pulso deve ser um número entre 20 e 250, ou deixe em branco.');
+      rows.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),t:t,s:s,d:di,p:p,b:fB.value||'',o:fO.value.replace(/\s+/g,' ').trim().slice(0,140)});
+      save(); dpRender();
+      fS.value='';fD.value='';fP.value='';fO.value='';fT.value=nowLocal();
+      say('Registro adicionado.',true); fS.focus();
+    });
+
+    listEl.addEventListener('click',function(e){
+      var b=e.target.closest&&e.target.closest('.dp-del'); if(!b) return;
+      var id=b.getAttribute('data-id'), i=-1;
+      rows.forEach(function(r,k){if(r.id===id)i=k});
+      if(i<0) return;
+      rows.splice(i,1); save(); dpRender();
+      var nb=listEl.querySelector('.dp-del'); (nb||fS).focus();
+      say('Registro removido.',true);
+    });
+
+    $('dp-print-btn').addEventListener('click',function(){
+      if(!rows.length){say('Adicione ao menos um registro para imprimir.',false);fS.focus();return}
+      $('dp-hoje').textContent=ptShort(new Date());
+      doPrint('diario');
+    });
+    $('dp-clear-btn').addEventListener('click',function(){
+      if(!rows.length){say('Não há registros para apagar.',false);return}
+      confirmEl.hidden=false; $('dp-clear-no').focus();
+    });
+    $('dp-clear-no').addEventListener('click',function(){confirmEl.hidden=true;$('dp-clear-btn').focus()});
+    $('dp-clear-yes').addEventListener('click',function(){
+      rows.length=0; lsDel(KEY); dpRender(); confirmEl.hidden=true; say('Todos os registros foram apagados deste aparelho.',true); fS.focus();
+    });
+    confirmEl.addEventListener('keydown',function(e){if(e.key==='Escape'){confirmEl.hidden=true;$('dp-clear-btn').focus()}});
+
+    var rt; w.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(function(){if(rows.length)renderChart(sorted())},150)});
+    if(!lsOk) $('dp-ls-warn').hidden=false;
+    fT.value=nowLocal(); load(); dpRender();
+  })();
+
+  /* =============== FICHA PRÉ-CONSULTA =============== */
+  (function(){
+    var form=$('fc-form'); if(!form) return;
+    var KEY='dg_ficha_v1';
+    var F=[['motivo','Motivo da consulta'],['sint','Sintomas e desde quando'],['rem','Remédios em uso (nome e dose)'],['alerg','Alergias'],['fam','Histórico familiar de problemas do coração'],['duv','Dúvidas para o médico']];
+    var out=$('fc-out'), hint=$('fc-hint'), nome=$('fc-nome');
+    var checks=[].slice.call(form.querySelectorAll('input[type=checkbox][data-lv]'));
+    var generated=false, armed=false, armT=0, saveT=0;
+
+    function collect(){
+      var o={nome:nome.value,lv:checks.filter(function(c){return c.checked}).map(function(c){return c.getAttribute('data-lv')})};
+      F.forEach(function(f){o[f[0]]=$('fc-'+f[0]).value});
+      return o;
+    }
+    function save(){lsSet(KEY,JSON.stringify(collect()))}
+    function load(){
+      var raw=lsGet(KEY), o=null;
+      try{o=raw?JSON.parse(raw):null}catch(e){o=null}
+      if(!o||typeof o!=='object') return;
+      nome.value=typeof o.nome==='string'?o.nome:'';
+      F.forEach(function(f){var v=o[f[0]];$('fc-'+f[0]).value=typeof v==='string'?v:''});
+      var lv=Array.isArray(o.lv)?o.lv:[];
+      checks.forEach(function(c){c.checked=lv.indexOf(c.getAttribute('data-lv'))>-1});
+    }
+
+    function build(focus){
+      var o=collect();
+      out.textContent='';
+      var sheet=el('article','sheet');
+      sheet.appendChild(el('span','label','Ficha pré-consulta'));
+      var h=el('h3','','Resumo para a consulta com o Dr. Guilherme'); h.tabIndex=-1; sheet.appendChild(h);
+      sheet.appendChild(el('p','sh-meta','Dr. Guilherme Henrique Figueiredo de Oliveira · Cardiologista · CRM-MG 48540 · RQE 40142'));
+      var nm=o.nome.replace(/\s+/g,' ').trim();
+      sheet.appendChild(el('p','sh-meta','Paciente: '+(nm||'______________________________')+' · Preenchida em '+ptShort(new Date())));
+      var dl=el('dl');
+      F.forEach(function(f){
+        var v=String(o[f[0]]||'').trim();
+        var row=el('div'); row.appendChild(el('dt',null,f[1])); row.appendChild(el('dd',null,v||'Não informado'));
+        dl.appendChild(row);
+      });
+      sheet.appendChild(dl);
+      sheet.appendChild(el('h4',null,'O que levar'));
+      var ul=el('ul','tk');
+      checks.forEach(function(c){
+        var li=el('li'); li.appendChild(el('span','bx',c.checked?'x':''));
+        li.appendChild(el('span',null,c.getAttribute('data-lv'))); ul.appendChild(li);
+      });
+      sheet.appendChild(ul);
+      if(dpRows.length) sheet.appendChild(el('p','sh-foot','Diário da pressão: '+dpRows.length+' '+(dpRows.length===1?'registro':'registros')+' neste aparelho (imprima na seção Diário).'));
+      sheet.appendChild(el('p','sh-foot','Resumo preenchido pelo próprio paciente. Não é laudo, receita nem diagnóstico.'));
+      out.appendChild(sheet);
+      var act=el('div','fc-actions no-print');
+      var pb=el('button','btn ghost','Imprimir ou salvar em PDF'); pb.type='button';
+      pb.addEventListener('click',function(){doPrint('ficha')});
+      act.appendChild(pb); out.appendChild(act);
+      generated=true;
+      if(focus){h.focus({preventScroll:true});scrollTo(sheet)}
+    }
+
+    form.addEventListener('submit',function(e){e.preventDefault();save();build(true)});
+    form.addEventListener('input',function(){
+      clearTimeout(saveT); saveT=setTimeout(save,250);
+      if(generated) build(false);
+    });
+    form.addEventListener('change',function(){save();if(generated)build(false)});
+
+    var clr=$('fc-clear');
+    clr.addEventListener('click',function(){
+      if(!armed){
+        armed=true; clr.textContent='Toque de novo para limpar';
+        clearTimeout(armT); armT=setTimeout(function(){armed=false;clr.textContent='Limpar ficha'},4000); return;
+      }
+      clearTimeout(armT); armed=false; clr.textContent='Limpar ficha';
+      form.reset(); checks.forEach(function(c){c.checked=false});
+      lsDel(KEY); generated=false; out.textContent=''; out.appendChild(hint);
+    });
+
+    if(!lsOk) $('fc-ls-note').textContent='Este navegador não permite guardar dados: o que você digitar dura apenas enquanto esta página estiver aberta.';
+    load();
+  })();
+
+  /* aviso de armazenamento indisponível, caso a falha só apareça depois */
+  if(!lsOk){var lw=$('dp-ls-warn'); if(lw) lw.hidden=false}
+})();
+</script>
+</body>
+</html>
